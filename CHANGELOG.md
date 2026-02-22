@@ -2,6 +2,13 @@
 
 Todas as mudanças notáveis neste projeto serão documentadas neste arquivo.
 
+## [1.2.0] - 2026-02-22
+
+### Adicionado
+- Tradução nativa completa para Português do Brasil (PT-BR) de todos os +3.800 emojis, utilizando a base de dados oficial do EmojiBase.
+- Atualização do motor de busca YAD (`--regex-search`) com nomes da categoria visíveis para garantir busca simultânea eficiente com zero cliques.
+- Automação de Publicação (CI/CD) com GitHub Actions Release.
+
 ## [1.1.0] - 2026-02-22
 
 ### Adicionado

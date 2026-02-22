@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Emoji Picker for Linux
-# Versão 1.1.0 - Correção de Busca (Nome e Categoria Simultâneos)
+# Versão 1.2.0 - Correção de Busca (Nome e Categoria Simultâneos)
 
 set -e
 
@@ -15,7 +15,7 @@ fi
 
 CACHE_DIR="$HOME/.cache/emoji-picker"
 CACHE_FILE="$CACHE_DIR/emojis.cache"
-VERSION="1.1.0"
+VERSION="1.2.0"
 
 cleanup() {
     pkill -u "$USER" -x yad 2>/dev/null || true
