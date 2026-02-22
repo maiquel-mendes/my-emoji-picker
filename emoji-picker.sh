@@ -7,7 +7,14 @@ set -e
 
 # Configurações
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-DATA_DIR="$SCRIPT_DIR/data"
+# Se estiver instalado em ~/.local/bin, procura em ~/.local/share/emoji-picker
+# Caso contrário (desenvolvimento), usa a pasta data local
+if [ -d "$HOME/.local/share/emoji-picker" ]; then
+    DATA_DIR="$HOME/.local/share/emoji-picker"
+else
+    DATA_DIR="$SCRIPT_DIR/data"
+fi
+
 CACHE_DIR="$HOME/.cache/emoji-picker"
 CACHE_FILE="$CACHE_DIR/emojis.cache"
 LOG_FILE="$HOME/.local/share/emoji-picker.log"

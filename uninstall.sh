@@ -41,13 +41,18 @@ fi
 
 pkill -x xbindkeys 2>/dev/null || true
 
-echo "[4/4] Removendo inicialização automática..."
+echo "[4/5] Removendo inicialização automática..."
 if [ -f "$AUTOSTART_FILE" ]; then
     rm -f "$AUTOSTART_FILE"
     echo "  Autostart removido."
 else
     echo "  Autostart não encontrado."
 fi
+
+echo "[5/5] Removendo dados e cache..."
+rm -rf "$HOME/.local/share/emoji-picker"
+rm -rf "$HOME/.cache/emoji-picker"
+echo "  Dados e cache removidos."
 
 echo ""
 echo "=========================================="

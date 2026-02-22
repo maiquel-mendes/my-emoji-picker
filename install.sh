@@ -63,13 +63,18 @@ install_dependencies() {
 }
 
 install_script() {
-    echo "[2/5] Instalando script..."
+    echo "[2/5] Instalando script e dados..."
     
     mkdir -p "$INSTALL_DIR"
     cp "$EMOJI_SCRIPT" "$INSTALL_DIR/emoji-picker.sh"
     chmod +x "$INSTALL_DIR/emoji-picker.sh"
     
+    # Instalar dados
+    mkdir -p "$HOME/.local/share/emoji-picker"
+    cp "$SCRIPT_DIR/data/emojis.json" "$HOME/.local/share/emoji-picker/emojis.json"
+    
     echo "  Script instalado em: $INSTALL_DIR/emoji-picker.sh"
+    echo "  Dados instalados em: $HOME/.local/share/emoji-picker/"
 }
 
 create_desktop_entry() {
