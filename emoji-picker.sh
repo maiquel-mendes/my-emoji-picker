@@ -53,15 +53,14 @@ try:
                     
                     # Col 1: Emoji (MARKUP)
                     cache.write(f'<span size=\"x-large\">{emoji}</span>\n')
-                    # Col 2: Descrição
-                    cache.write(f'{desc}\n')
-                    # Col 3: Categoria
+                    # Col 2: Descrição + Categoria
+                    # Incluímos a categoria diretamente na coluna de texto principal 
+                    # para que a busca nativa encontre instantaneamente sem depender de cliques.
+                    cache.write(f'{desc}   [{cat_name}]\n')
+                    # Col 3: Categoria (Coluna extra para ordenação)
                     cache.write(f'{cat_name}\n')
                     # Col 4: Raw para Cópia (Escondido)
                     cache.write(f'{emoji}\n')
-                    # Col 5: Super Índice de Busca (Escondido)
-                    # Contém [desc] [cat] para busca universal
-                    cache.write(f'{desc} {cat_name}\n')
 except Exception as e:
     sys.exit(1)
 "
@@ -70,11 +69,7 @@ except Exception as e:
 show_picker() {
     get_all_emojis
     
-    # 5 Colunas: Emoji, Descrição, Categoria, Raw, Busca
-    # --search-column=2: Priorizamos a descrição para o foco inicial
-    # No entanto, ao usar --search-column e o yad perceber que você quer algo dinâmico,
-    # às vezes é melhor usar a coluna de texto puro.
-    
+    # 4 Colunas: Emoji, Descrição (com categoria), Categoria, Raw
     local chosen
     chosen=$(yad --center \
         --title="Emoji Picker v$VERSION" \
@@ -84,13 +79,12 @@ show_picker() {
         --column="Descrição":TEXT \
         --column="Categoria":TEXT \
         --column="Raw":TEXT \
-        --column="Busca":TEXT \
-        --hide-column=4 --hide-column=5 \
+        --hide-column=4 \
         --print-column=4 \
-        --search-column=5 \
-        --regex \
+        --search-column=2 \
+        --regex-search \
         --separator="" \
-        --text="Busque por <b>Nome</b> ou <b>Categoria</b>. Digite qualquer parte da palavra para filtrar." < "$CACHE_FILE")
+        --text="<b>Busca Ativa:</b> Digite qualquer parte do Nome ou Categoria." < "$CACHE_FILE")
     
     echo -n "$chosen"
 }
