@@ -77,18 +77,16 @@ create_desktop_entry() {
     
     mkdir -p "$(dirname "$DESKTOP_FILE")"
     
-    cat > "$DESKTOP_FILE" << 'EOF'
+    cat > "$DESKTOP_FILE" << EOF
 [Desktop Entry]
 Name=Emoji Picker
 Comment=Selecione emojis para copiar para a área de transferência
-Exec=/home/maiquel/.local/bin/emoji-picker.sh
+Exec=$HOME/.local/bin/emoji-picker.sh
 Icon=face-smile
 Terminal=false
 Type=Application
 Categories=Utility;
 EOF
-    
-    sed -i "s|/home/maiquel/|$HOME/|g" "$DESKTOP_FILE"
     
     echo "  Entrada criada em: $DESKTOP_FILE"
 }

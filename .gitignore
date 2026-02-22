@@ -1,0 +1,13 @@
+# Logs
+*.log
+
+# Cache
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local icons or temporary files
+*.tmp
+*~
