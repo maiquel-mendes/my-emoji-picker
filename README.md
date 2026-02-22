@@ -1,25 +1,26 @@
 # Emoji Picker para Linux
 
-Seletor de emojis via atalho global para Linux. Abre um menu interativo com busca para escolher emojis, que são copiados para a área de transferência.
+Seletor de emojis leve, rápido e elegante com atalho global para Linux. Abre um menu interativo baseado em YAD com busca instantânea, copiando o emoji escolhido diretamente para a sua área de transferência.
 
-## Recursos
+## 🚀 Recursos
 
-- Seletor de emojis com busca em tempo real
-- Atalhos globais: `Super+.` ou `Ctrl+Alt+.`
-- Notificação ao copiar emoji
-- Instalação automática de dependências
-- Suporte às principais distribuições Linux
+- **Visual Premium**: Emojis em tamanho maior com suporte a Pango markup.
+- **Performance Instantânea**: Sistema de cache em arquivo que carrega mais de 900 emojis em ~1ms.
+- **Busca Inteligente**: Filtre por nome do emoji, descrição ou categoria em tempo real.
+- **Atalhos Globais**: Configura automaticamente `Super+.` (igual ao Windows) ou `Ctrl+Alt+.`.
+- **Notificações**: Feedback visual imediato ao copiar um emoji.
+- **Instalação Automatizada**: Script que configura binários, dados, ícones e atalhos.
 
-## Requisitos
+## 🛠️ Requisitos
 
 - Linux com ambiente gráfico (GNOME, KDE, XFCE, etc.)
-- YAD (Yet Another Dialog)
-- xclip
-- libnotify
-- xbindkeys
-- Fonte Noto Color Emoji
+- **YAD** (Yet Another Dialog)
+- **xclip** (Para manipulação da área de transferência)
+- **libnotify** (Para notificações)
+- **xbindkeys** (Para os atalhos globais)
+- **Fonte Noto Color Emoji** (Para correta visualização dos emojis)
 
-## Instalação
+## 📦 Instalação
 
 ```bash
 chmod +x install.sh
@@ -27,55 +28,48 @@ chmod +x install.sh
 ```
 
 O instalador irá:
-1. Verificar e instalar dependências
-2. Copiar o script para `~/.local/bin/`
-3. Criar entrada no menu de aplicativos
-4. Configurar atalho global via xbindkeys
-5. Configurar inicialização automática
+1. Verificar e instalar dependências via gerenciador de pacotes (`apt`, `dnf`, `pacman`, etc.)
+2. Instalar o script em `~/.local/bin/`
+3. Instalar o banco de dados de emojis em `~/.local/share/emoji-picker/`
+4. Criar entrada no menu de aplicativos (XDG Desktop Entry)
+5. Configurar e iniciar os atalhos globais via `xbindkeys`
+6. Configurar a inicialização automática junto com o sistema
 
-## Uso
+## 💡 Uso
 
-1. Pressione `Super+.` ou `Ctrl+Alt+.` em qualquer aplicação
-2. Busque o emoji digitando no campo de pesquisa
-3. Clique no emoji desejado ou selecione com Enter
-4. O emoji será copiado para a área de transferência
-5. Cole com `Ctrl+V` onde desejar
+1. Pressione `Super+.` ou `Ctrl+Alt+.` em qualquer aplicação.
+2. Busque o emoji digitando no campo de pesquisa (ex: `fire`, `heart`, `beer`).
+3. Selecione com as setas e pressione **Enter** ou clique no emoji.
+4. O emoji será copiado. Cole com `Ctrl+V` onde desejar.
 
-## Desinstalação
+### Comandos de Terminal
+
+```bash
+emoji-picker.sh --help      # Mostra ajuda
+emoji-picker.sh --version   # Mostra versão atual
+emoji-picker.sh --clear-cache # Limpa o cache de emojis
+```
+
+## 🗑️ Desinstalação
 
 ```bash
 chmod +x uninstall.sh
 ./uninstall.sh
 ```
 
-## Solução de Problemas
-
-### O atalho não funciona
-- Reinicie a sessão ou faça logout/login
-- Verifique se xbindkeys está em execução: `pgrep xbindkeys`
-- Inicie manualmente: `xbindkeys`
-
-### Os emojis aparecem como quadrado
-- A fonte Noto Color Emoji não está instalada
-- Instale manualmente:
-  - **Ubuntu/Debian**: `sudo apt install fonts-noto-color-emoji`
-  - **Fedora**: `sudo dnf install google-noto-color-emoji-fonts`
-  - **Arch**: `sudo pacman -S noto-fonts-emoji`
-
-### Menu não abre
-- Verifique se yad está instalado: `which yad`
-- Execute o script manualmente para ver erros: `~/.local/bin/emoji-picker.sh`
-
-## Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 ```
 my-emoji-picker/
-├── emoji-picker.sh   # Script principal
+├── emoji-picker.sh   # Script principal (Bash)
 ├── install.sh        # Script de instalação
 ├── uninstall.sh      # Script de desinstalação
-└── README.md         # Este arquivo
+├── data/             # Dados originais de emojis
+├── tests/            # Suíte de testes automatizados
+├── VERSION           # Versão atual do projeto
+└── CHANGELOG.md      # Histórico de alterações
 ```
 
-## Licença
+## 📝 Licença
 
-MIT
+Este projeto está sob a licença [MIT](LICENSE).

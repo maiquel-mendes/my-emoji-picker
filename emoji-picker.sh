@@ -19,9 +19,38 @@ CACHE_DIR="$HOME/.cache/emoji-picker"
 CACHE_FILE="$CACHE_DIR/emojis.cache"
 LOG_FILE="$HOME/.local/share/emoji-picker.log"
 
+VERSION="1.0.0"
+
 log() {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" >> "$LOG_FILE" 2>/dev/null || true
 }
+
+show_help() {
+    echo "Emoji Picker v$VERSION"
+    echo "Uso: $(basename "$0") [opções]"
+    echo ""
+    echo "Opções:"
+    echo "  -v, --version    Mostra a versão"
+    echo "  -h, --help       Mostra esta ajuda"
+    echo "  --clear-cache    Limpa o cache de emojis"
+}
+
+# Processar argumentos
+case "$1" in
+    -v|--version)
+        echo "v$VERSION"
+        exit 0
+        ;;
+    -h|--help)
+        show_help
+        exit 0
+        ;;
+    --clear-cache)
+        rm -f "$CACHE_FILE"
+        echo "Cache limpo."
+        exit 0
+        ;;
+esac
 
 # Limpa processos órfãos do yad se houver
 cleanup() {
