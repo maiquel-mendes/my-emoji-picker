@@ -2,6 +2,14 @@
 
 Todas as mudanças notáveis neste projeto serão documentadas neste arquivo.
 
+## [1.1.0] - 2026-02-22
+
+### Adicionado
+- Novo layout em **Tabela** com coluna dedicada para **Categorias**.
+- Tradução de todas as descrições de emojis para **Português**.
+- Sistema de **Busca Global** que filtra tanto por nome quanto por categoria.
+- Melhoria na estabilidade do cache e tratamento de caracteres.
+
 ## [1.0.0] - 2026-02-22
 
 ### Adicionado

@@ -2,994 +2,3823 @@
   "smileys": {
     "name": "Sorrisos",
     "emojis": [
-      ["😀", "grinning face"],
-      ["😃", "grinning face with big eyes"],
-      ["😄", "grinning face with smiling eyes"],
-      ["😁", "beaming face with smiling eyes"],
-      ["😆", "grinning squinting face"],
-      ["😅", "grinning face with sweat"],
-      ["🤣", "rolling on the floor laughing"],
-      ["😂", "face with tears of joy"],
-      ["🙂", "slightly smiling face"],
-      ["🙃", "upside-down face"],
-      ["🫠", "melting face"],
-      ["😉", "winking face"],
-      ["😊", "smiling face with smiling eyes"],
-      ["😇", "smiling face with halo"],
-      ["🥰", "smiling face with hearts"],
-      ["😍", "smiling face with heart-eyes"],
-      ["🤩", "star-struck"],
-      ["😘", "face blowing a kiss"],
-      ["😗", "kissing face"],
-      ["☺️", "smiling face"],
-      ["😚", "kissing face with closed eyes"],
-      ["😙", "kissing face with smiling eyes"],
-      ["🥲", "smiling face with tear"],
-      ["😋", "face savoring food"],
-      ["😛", "face with tongue"],
-      ["😜", "winking face with tongue"],
-      ["🤪", "zany face"],
-      ["😝", "squinting face with tongue"],
-      ["🤑", "money-mouth face"],
-      ["🤗", "smiling face with open hands"],
-      ["🤭", "face with hand over mouth"],
-      ["🫢", "face with open eyes and hand over mouth"],
-      ["🫣", "face with peeking eye"],
-      ["🤫", "shushing face"],
-      ["🤔", "thinking face"],
-      ["🫡", "saluting face"],
-      ["🤐", "zipper-mouth face"],
-      ["🤨", "face with raised eyebrow"],
-      ["😐", "neutral face"],
-      ["😑", "expressionless face"],
-      ["😶", "face without mouth"],
-      ["🫥", "dotted line face"],
-      ["😶‍🌫️", "face in clouds"],
-      ["😏", "smirking face"],
-      ["😒", "unamused face"],
-      ["🙄", "face with rolling eyes"],
-      ["😬", "grimacing face"],
-      ["😮‍💨", "face exhaling"],
-      ["🤥", "lying face"],
-      ["🫨", "shaking face"],
-      ["🙂‍↔️", "head shaking horizontally"],
-      ["🙂‍↕️", "head shaking vertically"],
-      ["😌", "relieved face"],
-      ["😔", "pensive face"],
-      ["😪", "sleepy face"],
-      ["🤤", "drooling face"],
-      ["😴", "sleeping face"],
-      ["🫩", "face with bags under eyes"],
-      ["😷", "face with medical mask"],
-      ["🤒", "face with thermometer"],
-      ["🤕", "face with head-bandage"],
-      ["🤢", "nauseated face"],
-      ["🤮", "face vomiting"],
-      ["🤧", "sneezing face"],
-      ["🥵", "hot face"],
-      ["🥶", "cold face"],
-      ["🥴", "woozy face"],
-      ["😵", "face with crossed-out eyes"],
-      ["😵‍💫", "face with spiral eyes"],
-      ["🤯", "exploding head"],
-      ["🤠", "cowboy hat face"],
-      ["🥳", "partying face"],
-      ["🥸", "disguised face"],
-      ["😎", "smiling face with sunglasses"],
-      ["🤓", "nerd face"],
-      ["🧐", "face with monocle"],
-      ["😕", "confused face"],
-      ["🫤", "face with diagonal mouth"],
-      ["😟", "worried face"],
-      ["🙁", "slightly frowning face"],
-      ["☹️", "frowning face"],
-      ["😮", "face with open mouth"],
-      ["😯", "hushed face"],
-      ["😲", "astonished face"],
-      ["😳", "flushed face"],
-      ["🥺", "pleading face"],
-      ["🥹", "face holding back tears"],
-      ["😦", "frowning face with open mouth"],
-      ["😧", "anguished face"],
-      ["😨", "fearful face"],
-      ["😰", "anxious face with sweat"],
-      ["😥", "sad but relieved face"],
-      ["😢", "crying face"],
-      ["😭", "loudly crying face"],
-      ["😱", "face screaming in fear"],
-      ["😖", "confounded face"],
-      ["😣", "persevering face"],
-      ["😞", "disappointed face"],
-      ["😓", "downcast face with sweat"],
-      ["😩", "weary face"],
-      ["😫", "tired face"],
-      ["🥱", "yawning face"],
-      ["😤", "face with steam from nose"],
-      ["😡", "enraged face"],
-      ["😠", "angry face"],
-      ["🤬", "face with symbols on mouth"]
+      [
+        "😀",
+        "sorridente rosto"
+      ],
+      [
+        "😃",
+        "sorridente rosto com big olhos"
+      ],
+      [
+        "😄",
+        "sorridente rosto com sorridente olhos"
+      ],
+      [
+        "😁",
+        "radiante rosto com sorridente olhos"
+      ],
+      [
+        "😆",
+        "sorridente semicerrados rosto"
+      ],
+      [
+        "😅",
+        "sorridente rosto com suor"
+      ],
+      [
+        "🤣",
+        "rolando on the chão rindo"
+      ],
+      [
+        "😂",
+        "rosto com lágrimas of alegria"
+      ],
+      [
+        "🙂",
+        "levemente sorridente rosto"
+      ],
+      [
+        "🙃",
+        "de cabeça para baixo rosto"
+      ],
+      [
+        "🫠",
+        "derretendo rosto"
+      ],
+      [
+        "😉",
+        "piscando rosto"
+      ],
+      [
+        "😊",
+        "sorridente rosto com sorridente olhos"
+      ],
+      [
+        "😇",
+        "sorridente rosto com halos"
+      ],
+      [
+        "🥰",
+        "sorridente rosto com corações"
+      ],
+      [
+        "😍",
+        "sorridente rosto com olhos de coração"
+      ],
+      [
+        "🤩",
+        "encantado"
+      ],
+      [
+        "😘",
+        "rosto soprando a beijo"
+      ],
+      [
+        "😗",
+        "beijando rosto"
+      ],
+      [
+        "☺️",
+        "sorridente rosto"
+      ],
+      [
+        "😚",
+        "beijando rosto com closed olhos"
+      ],
+      [
+        "😙",
+        "beijando rosto com sorridente olhos"
+      ],
+      [
+        "🥲",
+        "sorridente rosto com tear"
+      ],
+      [
+        "😋",
+        "rosto savoring food"
+      ],
+      [
+        "😛",
+        "rosto com língua"
+      ],
+      [
+        "😜",
+        "piscando rosto com língua"
+      ],
+      [
+        "🤪",
+        "engraçado rosto"
+      ],
+      [
+        "😝",
+        "semicerrados rosto com língua"
+      ],
+      [
+        "🤑",
+        "boca de dinheiro rosto"
+      ],
+      [
+        "🤗",
+        "sorridente rosto com aberto mãos"
+      ],
+      [
+        "🤭",
+        "rosto com mão over boca"
+      ],
+      [
+        "🫢",
+        "rosto com aberto olhos and mão over boca"
+      ],
+      [
+        "🫣",
+        "rosto com espiando eye"
+      ],
+      [
+        "🤫",
+        "fazendo silêncio rosto"
+      ],
+      [
+        "🤔",
+        "pensando rosto"
+      ],
+      [
+        "🫡",
+        "saudando rosto"
+      ],
+      [
+        "🤐",
+        "boca de zíper rosto"
+      ],
+      [
+        "🤨",
+        "rosto com erguida sobrancelha"
+      ],
+      [
+        "😐",
+        "neutro rosto"
+      ],
+      [
+        "😑",
+        "sem expressão rosto"
+      ],
+      [
+        "😶",
+        "rosto sem boca"
+      ],
+      [
+        "🫥",
+        "pontilhado linha rosto"
+      ],
+      [
+        "😶‍🌫️",
+        "rosto in nuvens"
+      ],
+      [
+        "😏",
+        "sorriso de lado rosto"
+      ],
+      [
+        "😒",
+        "descontente rosto"
+      ],
+      [
+        "🙄",
+        "rosto com rolando olhos"
+      ],
+      [
+        "😬",
+        "fazendo carroeta rosto"
+      ],
+      [
+        "😮‍💨",
+        "rosto exalando"
+      ],
+      [
+        "🤥",
+        "mentindo rosto"
+      ],
+      [
+        "🫨",
+        "balançando rosto"
+      ],
+      [
+        "🙂‍↔️",
+        "cabeça balançando horizontalmente"
+      ],
+      [
+        "🙂‍↕️",
+        "cabeça balançando verticalmente"
+      ],
+      [
+        "😌",
+        "aliviado rosto"
+      ],
+      [
+        "😔",
+        "pensativo rosto"
+      ],
+      [
+        "😪",
+        "sonolento rosto"
+      ],
+      [
+        "🤤",
+        "babando rosto"
+      ],
+      [
+        "😴",
+        "dormindo rosto"
+      ],
+      [
+        "🫩",
+        "rosto com bolsas sob olhos"
+      ],
+      [
+        "😷",
+        "rosto com médico máscarroa"
+      ],
+      [
+        "🤒",
+        "rosto com termômetro"
+      ],
+      [
+        "🤕",
+        "rosto com bandagem na cabeça"
+      ],
+      [
+        "🤢",
+        "enjoado rosto"
+      ],
+      [
+        "🤮",
+        "rosto vomitando"
+      ],
+      [
+        "🤧",
+        "espirrando rosto"
+      ],
+      [
+        "🥵",
+        "quente rosto"
+      ],
+      [
+        "🥶",
+        "frio rosto"
+      ],
+      [
+        "🥴",
+        "tonteira rosto"
+      ],
+      [
+        "😵",
+        "rosto com tachado olhos"
+      ],
+      [
+        "😵‍💫",
+        "rosto com espiral olhos"
+      ],
+      [
+        "🤯",
+        "explodindo cabeça"
+      ],
+      [
+        "🤠",
+        "vaqueiro chapéu rosto"
+      ],
+      [
+        "🥳",
+        "festejando rosto"
+      ],
+      [
+        "🥸",
+        "disfarçado rosto"
+      ],
+      [
+        "😎",
+        "sorridente rosto com óculos de sol"
+      ],
+      [
+        "🤓",
+        "nerd rosto"
+      ],
+      [
+        "🧐",
+        "rosto com monóculo"
+      ],
+      [
+        "😕",
+        "confuso rosto"
+      ],
+      [
+        "🫤",
+        "rosto com diagonal boca"
+      ],
+      [
+        "😟",
+        "preocupado rosto"
+      ],
+      [
+        "🙁",
+        "levemente franzindo a testa rosto"
+      ],
+      [
+        "☹️",
+        "franzindo a testa rosto"
+      ],
+      [
+        "😮",
+        "rosto com aberto boca"
+      ],
+      [
+        "😯",
+        "silencioso rosto"
+      ],
+      [
+        "😲",
+        "atônito rosto"
+      ],
+      [
+        "😳",
+        "corado rosto"
+      ],
+      [
+        "🥺",
+        "suplicante rosto"
+      ],
+      [
+        "🥹",
+        "rosto segurando de volta lágrimas"
+      ],
+      [
+        "😦",
+        "franzindo a testa rosto com aberto boca"
+      ],
+      [
+        "😧",
+        "anguished rosto"
+      ],
+      [
+        "😨",
+        "fearful rosto"
+      ],
+      [
+        "😰",
+        "ansioso rosto com suor"
+      ],
+      [
+        "😥",
+        "triste mas aliviado rosto"
+      ],
+      [
+        "😢",
+        "chorando rosto"
+      ],
+      [
+        "😭",
+        "gritando chorando rosto"
+      ],
+      [
+        "😱",
+        "rosto gritando in medo"
+      ],
+      [
+        "😖",
+        "confuso rosto"
+      ],
+      [
+        "😣",
+        "perseverante rosto"
+      ],
+      [
+        "😞",
+        "decepcionado rosto"
+      ],
+      [
+        "😓",
+        "desanimado rosto com suor"
+      ],
+      [
+        "😩",
+        "cansado rosto"
+      ],
+      [
+        "😫",
+        "fatigado rosto"
+      ],
+      [
+        "🥱",
+        "bocejando rosto"
+      ],
+      [
+        "😤",
+        "rosto com vapor from nariz"
+      ],
+      [
+        "😡",
+        "enfurecido rosto"
+      ],
+      [
+        "😠",
+        "irritado rosto"
+      ],
+      [
+        "🤬",
+        "rosto com símbolos on boca"
+      ]
     ]
   },
   "emotion": {
     "name": "Emoções",
     "emojis": [
-      ["😈", "smiling face with horns"],
-      ["👿", "angry face with horns"],
-      ["💀", "skull"],
-      ["☠️", "skull and crossbones"],
-      ["💩", "pile of poo"],
-      ["🤡", "clown face"],
-      ["👹", "ogre"],
-      ["👺", "goblin"],
-      ["👻", "ghost"],
-      ["👽", "alien"],
-      ["👾", "alien monster"],
-      ["🤖", "robot"],
-      ["💋", "kiss mark"],
-      ["💯", "hundred points"],
-      ["💢", "anger symbol"],
-      ["💥", "collision"],
-      ["💫", "dizzy"],
-      ["💦", "sweat droplets"],
-      ["💨", "dashing away"],
-      ["🕳️", "hole"],
-      ["💬", "speech balloon"],
-      ["👁️‍🗨️", "eye in speech bubble"],
-      ["🗨️", "left speech bubble"],
-      ["🗯️", "right anger bubble"],
-      ["💭", "thought balloon"],
-      ["💤", "ZZZ"]
+      [
+        "😈",
+        "sorridente rosto com horns"
+      ],
+      [
+        "👿",
+        "irritado rosto com horns"
+      ],
+      [
+        "💀",
+        "caveira"
+      ],
+      [
+        "☠️",
+        "caveira and ossos cruzados"
+      ],
+      [
+        "💩",
+        "pilha of cocô"
+      ],
+      [
+        "🤡",
+        "palhaço rosto"
+      ],
+      [
+        "👹",
+        "ogro"
+      ],
+      [
+        "👺",
+        "duende"
+      ],
+      [
+        "👻",
+        "fantasma"
+      ],
+      [
+        "👽",
+        "alienígena"
+      ],
+      [
+        "👾",
+        "alienígena monstro"
+      ],
+      [
+        "🤖",
+        "robô"
+      ],
+      [
+        "💋",
+        "beijo mark"
+      ],
+      [
+        "💯",
+        "hundred points"
+      ],
+      [
+        "💢",
+        "anger symbol"
+      ],
+      [
+        "💥",
+        "collision"
+      ],
+      [
+        "💫",
+        "dizzy"
+      ],
+      [
+        "💦",
+        "suor droplets"
+      ],
+      [
+        "💨",
+        "dashing away"
+      ],
+      [
+        "🕳️",
+        "hole"
+      ],
+      [
+        "💬",
+        "speech balloon"
+      ],
+      [
+        "👁️‍🗨️",
+        "eye in speech bubble"
+      ],
+      [
+        "🗨️",
+        "left speech bubble"
+      ],
+      [
+        "🗯️",
+        "right anger bubble"
+      ],
+      [
+        "💭",
+        "thought balloon"
+      ],
+      [
+        "💤",
+        "zzz"
+      ]
     ]
   },
   "heart": {
     "name": "Corações",
     "emojis": [
-      ["❤️", "red heart"],
-      ["🩷", "pink heart"],
-      ["🧡", "orange heart"],
-      ["💛", "yellow heart"],
-      ["💚", "green heart"],
-      ["💙", "blue heart"],
-      ["🩵", "light blue heart"],
-      ["💜", "purple heart"],
-      ["🤎", "brown heart"],
-      ["🖤", "black heart"],
-      ["🩶", "grey heart"],
-      ["🤍", "white heart"],
-      ["💌", "love letter"],
-      ["💘", "heart with arrow"],
-      ["💝", "heart with ribbon"],
-      ["💖", "sparkling heart"],
-      ["💗", "growing heart"],
-      ["💓", "beating heart"],
-      ["💞", "revolving hearts"],
-      ["💕", "two hearts"],
-      ["💟", "heart decoration"],
-      ["❣️", "heart exclamation"],
-      ["💔", "broken heart"],
-      ["❤️‍🔥", "heart on fire"],
-      ["❤️‍🩹", "mending heart"]
+      [
+        "❤️",
+        "red coração"
+      ],
+      [
+        "🩷",
+        "pink coração"
+      ],
+      [
+        "🧡",
+        "orange coração"
+      ],
+      [
+        "💛",
+        "yellow coração"
+      ],
+      [
+        "💚",
+        "green coração"
+      ],
+      [
+        "💙",
+        "blue coração"
+      ],
+      [
+        "🩵",
+        "light blue coração"
+      ],
+      [
+        "💜",
+        "purple coração"
+      ],
+      [
+        "🤎",
+        "brown coração"
+      ],
+      [
+        "🖤",
+        "black coração"
+      ],
+      [
+        "🩶",
+        "grey coração"
+      ],
+      [
+        "🤍",
+        "white coração"
+      ],
+      [
+        "💌",
+        "love letter"
+      ],
+      [
+        "💘",
+        "coração com seta"
+      ],
+      [
+        "💝",
+        "coração com ribbon"
+      ],
+      [
+        "💖",
+        "sparkling coração"
+      ],
+      [
+        "💗",
+        "growing coração"
+      ],
+      [
+        "💓",
+        "beating coração"
+      ],
+      [
+        "💞",
+        "revolving corações"
+      ],
+      [
+        "💕",
+        "two corações"
+      ],
+      [
+        "💟",
+        "coração decoration"
+      ],
+      [
+        "❣️",
+        "coração exclamation"
+      ],
+      [
+        "💔",
+        "broken coração"
+      ],
+      [
+        "❤️‍🔥",
+        "coração on fogo"
+      ],
+      [
+        "❤️‍🩹",
+        "mending coração"
+      ]
     ]
   },
   "animals": {
     "name": "Animais",
     "emojis": [
-      ["🐶", "dog face"],
-      ["🐱", "cat face"],
-      ["🐭", "mouse face"],
-      ["🐹", "hamster"],
-      ["🐰", "rabbit face"],
-      ["🦊", "fox"],
-      ["🐻", "bear"],
-      ["🐼", "panda"],
-      ["🐨", "koala"],
-      ["🐯", "tiger face"],
-      ["🦁", "lion"],
-      ["🐮", "cow face"],
-      ["🐷", "pig face"],
-      ["🐸", "frog"],
-      ["🐵", "monkey face"],
-      ["🙈", "see-no-evil monkey"],
-      ["🙉", "hear-no-evil monkey"],
-      ["🙊", "speak-no-evil monkey"],
-      ["🐒", "monkey"],
-      ["🐔", "chicken"],
-      ["🐧", "penguin"],
-      ["🐦", "bird"],
-      ["🐤", "hatching chick"],
-      ["🐣", "chick"],
-      ["🐥", "front-facing baby chick"],
-      ["🦆", "duck"],
-      ["🦅", "eagle"],
-      ["🦉", "owl"],
-      ["🦇", "bat"],
-      ["🐺", "wolf"],
-      ["🐗", "boar"],
-      ["🐴", "horse face"],
-      ["🦄", "unicorn"],
-      ["🐝", "honeybee"],
-      ["🪲", "beetle"],
-      ["🐛", "bug"],
-      ["🦋", "butterfly"],
-      ["🐌", "snail"],
-      ["🐞", "lady beetle"],
-      ["🐜", "ant"],
-      ["🦟", "mosquito"],
-      ["🪳", "cockroach"],
-      ["🐢", "turtle"],
-      ["🐍", "snake"],
-      ["🦎", "lizard"],
-      ["🦂", "scorpion"],
-      ["🕷️", "spider"],
-      ["🕸️", "spider web"],
-      ["🦀", "crab"],
-      ["🦞", "lobster"],
-      ["🦐", "shrimp"],
-      ["🦑", "squid"],
-      ["🐙", "octopus"],
-      ["🐠", "tropical fish"],
-      ["🐟", "fish"],
-      ["🐡", "blowfish"],
-      ["🐬", "dolphin"],
-      ["🦈", "shark"],
-      ["🐳", "spouting whale"],
-      ["🐋", "whale"],
-      ["🐊", "crocodile"],
-      ["🐆", "leopard"],
-      ["🐅", "tiger"],
-      ["🦓", "zebra"],
-      ["🦍", "gorilla"],
-      ["🦧", "orangutan"],
-      ["🐘", "elephant"],
-      ["🦛", "hippo"],
-      ["🦏", "rhinoceros"],
-      ["🐪", "camel"],
-      ["🐫", "two-hump camel"],
-      ["🦒", "giraffe"],
-      ["🦘", "kangaroo"],
-      ["🐃", "water buffalo"],
-      ["🐂", "ox"],
-      ["🐄", "cow"],
-      ["🐎", "horse"],
-      ["🐖", "pig"],
-      ["🐏", "ram"],
-      ["🐑", "ewe"],
-      ["🐐", "goat"],
-      ["🦌", "deer"],
-      ["🐕", "dog"],
-      ["🐩", "poodle"],
-      ["🦮", "guide dog"],
-      ["🐕‍🦺", "service dog"],
-      ["🐈", "cat"],
-      ["🐈‍⬛", "black cat"],
-      ["🪶", "feather"],
-      ["🐓", "rooster"],
-      ["🦃", "turkey"],
-      ["🦤", "dodo"],
-      ["🦚", "peacock"],
-      ["🦜", "parrot"],
-      ["🦢", "swan"],
-      ["🦩", "flamingo"],
-      ["🕊️", "dove"],
-      ["🐇", "rabbit"],
-      ["🦝", "raccoon"],
-      ["🦡", "badger"],
-      ["🦦", "otter"],
-      ["🦨", "skunk"],
-      ["🦡", "badger"],
-      ["🐾", "paw prints"],
-      ["🦌", "deer"]
+      [
+        "🐶",
+        "cachorro rosto"
+      ],
+      [
+        "🐱",
+        "gato rosto"
+      ],
+      [
+        "🐭",
+        "rato rosto"
+      ],
+      [
+        "🐹",
+        "hamster"
+      ],
+      [
+        "🐰",
+        "coelho rosto"
+      ],
+      [
+        "🦊",
+        "raposa"
+      ],
+      [
+        "🐻",
+        "urso"
+      ],
+      [
+        "🐼",
+        "panda"
+      ],
+      [
+        "🐨",
+        "coala"
+      ],
+      [
+        "🐯",
+        "tigre rosto"
+      ],
+      [
+        "🦁",
+        "leão"
+      ],
+      [
+        "🐮",
+        "vaca rosto"
+      ],
+      [
+        "🐷",
+        "porco rosto"
+      ],
+      [
+        "🐸",
+        "sapo"
+      ],
+      [
+        "🐵",
+        "macaco rosto"
+      ],
+      [
+        "🙈",
+        "see-no-evil macaco"
+      ],
+      [
+        "🙉",
+        "hear-no-evil macaco"
+      ],
+      [
+        "🙊",
+        "speak-no-evil macaco"
+      ],
+      [
+        "🐒",
+        "macaco"
+      ],
+      [
+        "🐔",
+        "frango"
+      ],
+      [
+        "🐧",
+        "pinguim"
+      ],
+      [
+        "🐦",
+        "pássaro"
+      ],
+      [
+        "🐤",
+        "hatching chick"
+      ],
+      [
+        "🐣",
+        "chick"
+      ],
+      [
+        "🐥",
+        "front-facing baby chick"
+      ],
+      [
+        "🦆",
+        "pato"
+      ],
+      [
+        "🦅",
+        "águia"
+      ],
+      [
+        "🦉",
+        "coruja"
+      ],
+      [
+        "🦇",
+        "morcego"
+      ],
+      [
+        "🐺",
+        "lobo"
+      ],
+      [
+        "🐗",
+        "boar"
+      ],
+      [
+        "🐴",
+        "cavalo rosto"
+      ],
+      [
+        "🦄",
+        "unicorn"
+      ],
+      [
+        "🐝",
+        "honeyabelha"
+      ],
+      [
+        "🪲",
+        "abelhatle"
+      ],
+      [
+        "🐛",
+        "inseto"
+      ],
+      [
+        "🦋",
+        "butterfly"
+      ],
+      [
+        "🐌",
+        "carroacol"
+      ],
+      [
+        "🐞",
+        "lady abelhatle"
+      ],
+      [
+        "🐜",
+        "ant"
+      ],
+      [
+        "🦟",
+        "mosquito"
+      ],
+      [
+        "🪳",
+        "cockroach"
+      ],
+      [
+        "🐢",
+        "tartaruga"
+      ],
+      [
+        "🐍",
+        "cobra"
+      ],
+      [
+        "🦎",
+        "lizard"
+      ],
+      [
+        "🦂",
+        "scorpion"
+      ],
+      [
+        "🕷️",
+        "spider"
+      ],
+      [
+        "🕸️",
+        "spider web"
+      ],
+      [
+        "🦀",
+        "crab"
+      ],
+      [
+        "🦞",
+        "lobster"
+      ],
+      [
+        "🦐",
+        "shrimp"
+      ],
+      [
+        "🦑",
+        "squid"
+      ],
+      [
+        "🐙",
+        "octopus"
+      ],
+      [
+        "🐠",
+        "tropical peixe"
+      ],
+      [
+        "🐟",
+        "peixe"
+      ],
+      [
+        "🐡",
+        "blowpeixe"
+      ],
+      [
+        "🐬",
+        "dolphin"
+      ],
+      [
+        "🦈",
+        "tubarão"
+      ],
+      [
+        "🐳",
+        "spouting baleia"
+      ],
+      [
+        "🐋",
+        "baleia"
+      ],
+      [
+        "🐊",
+        "crocodile"
+      ],
+      [
+        "🐆",
+        "leopard"
+      ],
+      [
+        "🐅",
+        "tigre"
+      ],
+      [
+        "🦓",
+        "zebra"
+      ],
+      [
+        "🦍",
+        "gorilla"
+      ],
+      [
+        "🦧",
+        "orangutan"
+      ],
+      [
+        "🐘",
+        "elefante"
+      ],
+      [
+        "🦛",
+        "hippo"
+      ],
+      [
+        "🦏",
+        "rhinoceros"
+      ],
+      [
+        "🐪",
+        "camel"
+      ],
+      [
+        "🐫",
+        "two-hump camel"
+      ],
+      [
+        "🦒",
+        "girafa"
+      ],
+      [
+        "🦘",
+        "kangaroo"
+      ],
+      [
+        "🐃",
+        "água buffalo"
+      ],
+      [
+        "🐂",
+        "ox"
+      ],
+      [
+        "🐄",
+        "vaca"
+      ],
+      [
+        "🐎",
+        "cavalo"
+      ],
+      [
+        "🐖",
+        "porco"
+      ],
+      [
+        "🐏",
+        "ram"
+      ],
+      [
+        "🐑",
+        "ewe"
+      ],
+      [
+        "🐐",
+        "goat"
+      ],
+      [
+        "🦌",
+        "deer"
+      ],
+      [
+        "🐕",
+        "cachorro"
+      ],
+      [
+        "🐩",
+        "poodle"
+      ],
+      [
+        "🦮",
+        "guide cachorro"
+      ],
+      [
+        "🐕‍🦺",
+        "service cachorro"
+      ],
+      [
+        "🐈",
+        "gato"
+      ],
+      [
+        "🐈‍⬛",
+        "black gato"
+      ],
+      [
+        "🪶",
+        "feather"
+      ],
+      [
+        "🐓",
+        "rooster"
+      ],
+      [
+        "🦃",
+        "turkey"
+      ],
+      [
+        "🦤",
+        "dodo"
+      ],
+      [
+        "🦚",
+        "peacock"
+      ],
+      [
+        "🦜",
+        "parrot"
+      ],
+      [
+        "🦢",
+        "swan"
+      ],
+      [
+        "🦩",
+        "flamingo"
+      ],
+      [
+        "🕊️",
+        "dove"
+      ],
+      [
+        "🐇",
+        "coelho"
+      ],
+      [
+        "🦝",
+        "raccoon"
+      ],
+      [
+        "🦡",
+        "badger"
+      ],
+      [
+        "🦦",
+        "otter"
+      ],
+      [
+        "🦨",
+        "skunk"
+      ],
+      [
+        "🦡",
+        "badger"
+      ],
+      [
+        "🐾",
+        "paw prints"
+      ],
+      [
+        "🦌",
+        "deer"
+      ]
     ]
   },
   "food": {
     "name": "Comida",
     "emojis": [
-      ["🍎", "red apple"],
-      ["🍐", "pear"],
-      ["🍊", "tangerine"],
-      ["🍋", "lemon"],
-      ["🍌", "banana"],
-      ["🍉", "watermelon"],
-      ["🍇", "grapes"],
-      ["🍓", "strawberry"],
-      ["🫐", "blueberries"],
-      ["🍈", "melon"],
-      ["🍒", "cherries"],
-      ["🍑", "peach"],
-      ["🥭", "mango"],
-      ["🍍", "pineapple"],
-      ["🥥", "coconut"],
-      ["🥝", "kiwi fruit"],
-      ["🍅", "tomato"],
-      ["🍆", "eggplant"],
-      ["🥑", "avocado"],
-      ["🥦", "broccoli"],
-      ["🥬", "leafy green"],
-      ["🥒", "cucumber"],
-      ["🌶️", "hot pepper"],
-      ["🫑", "bell pepper"],
-      ["🌽", "ear of corn"],
-      ["🥕", "carrot"],
-      ["🫒", "olive"],
-      ["🧄", "garlic"],
-      ["🧅", "onion"],
-      ["🥔", "potato"],
-      ["🍠", "roasted sweet potato"],
-      ["🥐", "croissant"],
-      ["🥯", "bagel"],
-      ["🍞", "bread"],
-      ["🥖", "baguette bread"],
-      ["🥨", "pretzel"],
-      ["🧀", "cheese wedge"],
-      ["🥚", "egg"],
-      ["🍳", "cooking"],
-      ["🧈", "butter"],
-      ["🥞", "pancakes"],
-      ["🧇", "waffle"],
-      ["🥓", "bacon"],
-      ["🥩", "cut of meat"],
-      ["🍗", "poultry leg"],
-      ["🍖", "meat on bone"],
-      ["🦴", "bone"],
-      ["🌭", "hot dog"],
-      ["🍔", "hamburger"],
-      ["🍟", "french fries"],
-      ["🍕", "pizza"],
-      ["🥪", "sandwich"],
-      ["🥙", "stuffed flatbread"],
-      ["🧆", "falafel"],
-      ["🌮", "taco"],
-      ["🌯", "burrito"],
-      ["🫔", "tamale"],
-      ["🥗", "green salad"],
-      ["🥘", "shallow pan of food"],
-      ["🫕", "fondue"],
-      ["🍝", "spaghetti"],
-      ["🍜", "steaming bowl"],
-      ["🍲", "pot of food"],
-      ["🍛", "curry rice"],
-      ["🍣", "sushi"],
-      ["🍱", "bento box"],
-      ["🥟", "dumpling"],
-      ["🦪", "oyster"],
-      ["🍤", "fried shrimp"],
-      ["🍙", "rice ball"],
-      ["🍚", "cooked rice"],
-      ["🍘", "rice cracker"],
-      ["🍥", "fish cake with swirl"],
-      ["🥠", "fortune cookie"],
-      ["🥡", "takeout box"],
-      ["🍢", "oden"],
-      ["🍡", "dango"],
-      ["🍧", "shaved ice"],
-      ["🍨", "ice cream"],
-      ["🍦", "soft ice cream"],
-      ["🥧", "pie"],
-      ["🧁", "cupcake"],
-      ["🍰", "shortcake"],
-      ["🎂", "birthday cake"],
-      ["🍮", "custard"],
-      ["🍭", "lollipop"],
-      ["🍬", "candy"],
-      ["🍫", "chocolate bar"],
-      ["🍿", "popcorn"],
-      ["🍩", "doughnut"],
-      ["🍪", "cookie"],
-      ["🌰", "chestnut"],
-      ["🥜", "peanuts"],
-      ["🍯", "honey pot"],
-      ["🥛", "glass of milk"],
-      ["☕", "hot beverage"],
-      ["🫖", "teapot"],
-      ["🍵", "teacup without handle"],
-      ["🧃", "beverage box"],
-      ["🥤", "cup with straw"],
-      ["🧋", "bubble tea"],
-      ["🍶", "sake"],
-      ["🍺", "beer mug"],
-      ["🍻", "clinking beer mugs"],
-      ["🥂", "clinking glasses"],
-      ["🍷", "wine glass"],
-      ["🥃", "tumbler glass"],
-      ["🍸", "cocktail glass"],
-      ["🍹", "tropical drink"],
-      ["🧉", "mate"],
-      ["🍾", "bottle with popping cork"],
-      ["🧊", "ice"],
-      ["🥄", "spoon"],
-      ["🍴", "fork and knife"],
-      ["🍽️", "fork and knife with plate"],
-      ["🥣", "bowl with spoon"],
-      ["🥡", "takeout box"],
-      ["🥢", "chopsticks"]
+      [
+        "🍎",
+        "red maçã"
+      ],
+      [
+        "🍐",
+        "pera"
+      ],
+      [
+        "🍊",
+        "tangerine"
+      ],
+      [
+        "🍋",
+        "limão"
+      ],
+      [
+        "🍌",
+        "banana"
+      ],
+      [
+        "🍉",
+        "melancia"
+      ],
+      [
+        "🍇",
+        "uvas"
+      ],
+      [
+        "🍓",
+        "morango"
+      ],
+      [
+        "🫐",
+        "blueberries"
+      ],
+      [
+        "🍈",
+        "melon"
+      ],
+      [
+        "🍒",
+        "cerejas"
+      ],
+      [
+        "🍑",
+        "pêssego"
+      ],
+      [
+        "🥭",
+        "mango"
+      ],
+      [
+        "🍍",
+        "pinemaçã"
+      ],
+      [
+        "🥥",
+        "coco"
+      ],
+      [
+        "🥝",
+        "kiwi fruit"
+      ],
+      [
+        "🍅",
+        "tomate"
+      ],
+      [
+        "🍆",
+        "ovoplant"
+      ],
+      [
+        "🥑",
+        "avocado"
+      ],
+      [
+        "🥦",
+        "brócolis"
+      ],
+      [
+        "🥬",
+        "leafy green"
+      ],
+      [
+        "🥒",
+        "cucumber"
+      ],
+      [
+        "🌶️",
+        "quente pepper"
+      ],
+      [
+        "🫑",
+        "bell pepper"
+      ],
+      [
+        "🌽",
+        "ear of corn"
+      ],
+      [
+        "🥕",
+        "cenoura"
+      ],
+      [
+        "🫒",
+        "olive"
+      ],
+      [
+        "🧄",
+        "garlic"
+      ],
+      [
+        "🧅",
+        "onion"
+      ],
+      [
+        "🥔",
+        "potato"
+      ],
+      [
+        "🍠",
+        "roasted sweet potato"
+      ],
+      [
+        "🥐",
+        "croissant"
+      ],
+      [
+        "🥯",
+        "bagel"
+      ],
+      [
+        "🍞",
+        "pão"
+      ],
+      [
+        "🥖",
+        "baguette pão"
+      ],
+      [
+        "🥨",
+        "pretzel"
+      ],
+      [
+        "🧀",
+        "queijo wedge"
+      ],
+      [
+        "🥚",
+        "ovo"
+      ],
+      [
+        "🍳",
+        "cooking"
+      ],
+      [
+        "🧈",
+        "butter"
+      ],
+      [
+        "🥞",
+        "panbolos"
+      ],
+      [
+        "🧇",
+        "waffle"
+      ],
+      [
+        "🥓",
+        "bacon"
+      ],
+      [
+        "🥩",
+        "cut of carrone"
+      ],
+      [
+        "🍗",
+        "poultry leg"
+      ],
+      [
+        "🍖",
+        "carrone on bone"
+      ],
+      [
+        "🦴",
+        "bone"
+      ],
+      [
+        "🌭",
+        "quente cachorro"
+      ],
+      [
+        "🍔",
+        "hambúrguer"
+      ],
+      [
+        "🍟",
+        "french fries"
+      ],
+      [
+        "🍕",
+        "pizza"
+      ],
+      [
+        "🥪",
+        "sanduíche"
+      ],
+      [
+        "🥙",
+        "stuffed flatpão"
+      ],
+      [
+        "🧆",
+        "falafel"
+      ],
+      [
+        "🌮",
+        "taco"
+      ],
+      [
+        "🌯",
+        "burrito"
+      ],
+      [
+        "🫔",
+        "tamale"
+      ],
+      [
+        "🥗",
+        "green salad"
+      ],
+      [
+        "🥘",
+        "shallow pan of food"
+      ],
+      [
+        "🫕",
+        "fondue"
+      ],
+      [
+        "🍝",
+        "espaguete"
+      ],
+      [
+        "🍜",
+        "steaming bcoruja"
+      ],
+      [
+        "🍲",
+        "pot of food"
+      ],
+      [
+        "🍛",
+        "curry rice"
+      ],
+      [
+        "🍣",
+        "sushi"
+      ],
+      [
+        "🍱",
+        "bento box"
+      ],
+      [
+        "🥟",
+        "dumpling"
+      ],
+      [
+        "🦪",
+        "oyster"
+      ],
+      [
+        "🍤",
+        "fried shrimp"
+      ],
+      [
+        "🍙",
+        "rice ball"
+      ],
+      [
+        "🍚",
+        "cooked rice"
+      ],
+      [
+        "🍘",
+        "rice cracker"
+      ],
+      [
+        "🍥",
+        "peixe bolo com swirl"
+      ],
+      [
+        "🥠",
+        "fortune biscoito"
+      ],
+      [
+        "🥡",
+        "takeout box"
+      ],
+      [
+        "🍢",
+        "oden"
+      ],
+      [
+        "🍡",
+        "dango"
+      ],
+      [
+        "🍧",
+        "shaved ice"
+      ],
+      [
+        "🍨",
+        "sorvete"
+      ],
+      [
+        "🍦",
+        "soft sorvete"
+      ],
+      [
+        "🥧",
+        "pie"
+      ],
+      [
+        "🧁",
+        "cupbolo"
+      ],
+      [
+        "🍰",
+        "shortbolo"
+      ],
+      [
+        "🎂",
+        "birthday bolo"
+      ],
+      [
+        "🍮",
+        "cuestrelad"
+      ],
+      [
+        "🍭",
+        "lollipop"
+      ],
+      [
+        "🍬",
+        "candy"
+      ],
+      [
+        "🍫",
+        "chocolate bar"
+      ],
+      [
+        "🍿",
+        "popcorn"
+      ],
+      [
+        "🍩",
+        "doughnut"
+      ],
+      [
+        "🍪",
+        "biscoito"
+      ],
+      [
+        "🌰",
+        "chestnut"
+      ],
+      [
+        "🥜",
+        "peanuts"
+      ],
+      [
+        "🍯",
+        "honey pot"
+      ],
+      [
+        "🥛",
+        "glass of milk"
+      ],
+      [
+        "☕",
+        "quente beverage"
+      ],
+      [
+        "🫖",
+        "teapot"
+      ],
+      [
+        "🍵",
+        "teacup sem handle"
+      ],
+      [
+        "🧃",
+        "beverage box"
+      ],
+      [
+        "🥤",
+        "cup com straw"
+      ],
+      [
+        "🧋",
+        "bubble tea"
+      ],
+      [
+        "🍶",
+        "sake"
+      ],
+      [
+        "🍺",
+        "abelhar mug"
+      ],
+      [
+        "🍻",
+        "clinking abelhar mugs"
+      ],
+      [
+        "🥂",
+        "clinking glasses"
+      ],
+      [
+        "🍷",
+        "vinho glass"
+      ],
+      [
+        "🥃",
+        "tumbler glass"
+      ],
+      [
+        "🍸",
+        "cocktail glass"
+      ],
+      [
+        "🍹",
+        "tropical drink"
+      ],
+      [
+        "🧉",
+        "mate"
+      ],
+      [
+        "🍾",
+        "bottle com popping cork"
+      ],
+      [
+        "🧊",
+        "ice"
+      ],
+      [
+        "🥄",
+        "spoon"
+      ],
+      [
+        "🍴",
+        "fork and knife"
+      ],
+      [
+        "🍽️",
+        "fork and knife com plate"
+      ],
+      [
+        "🥣",
+        "bcoruja com spoon"
+      ],
+      [
+        "🥡",
+        "takeout box"
+      ],
+      [
+        "🥢",
+        "chopsticks"
+      ]
     ]
   },
   "activities": {
     "name": "Atividades",
     "emojis": [
-      ["⚽", "soccer ball"],
-      ["🏀", "basketball"],
-      ["🏈", "american football"],
-      ["⚾", "baseball"],
-      ["🥎", "softball"],
-      ["🎾", "tennis ball"],
-      ["🏐", "volleyball"],
-      ["🏉", "rugby football"],
-      ["🥏", "flying disc"],
-      ["🎱", "pool 8 ball"],
-      ["🪀", "yo-yo"],
-      ["🏓", "ping pong"],
-      ["🏸", "badminton"],
-      ["🏒", "ice hockey"],
-      ["🏑", "field hockey"],
-      ["🥍", "lacrosse"],
-      ["🏏", "cricket game"],
-      ["🪃", "boomerang"],
-      ["🥅", "goal net"],
-      ["⛳", "flag in hole"],
-      ["🪁", "kite"],
-      ["🏹", "bow and arrow"],
-      ["🎣", "fishing pole"],
-      ["🤿", "diving mask"],
-      ["🥊", "boxing glove"],
-      ["🥋", "martial arts uniform"],
-      ["🎽", "running shirt"],
-      ["🛹", "skateboard"],
-      ["🛼", "roller skate"],
-      ["🛷", "sled"],
-      ["⛸️", "ice skate"],
-      ["🎿", "skis"],
-      ["🥌", "curling stone"],
-      ["🎯", "bullseye"],
-      ["🪀", "yo-yo"],
-      ["🎮", "video game"],
-      ["🕹️", "joystick"],
-      ["🎰", "slot machine"],
-      ["🎲", "game die"],
-      ["♟️", "chess pawn"],
-      ["🎭", "performing arts"],
-      ["🎨", "artist palette"],
-      ["🎬", "clapper board"],
-      ["🎤", "microphone"],
-      ["🎧", "headphone"],
-      ["🎼", "musical score"],
-      ["🎹", "musical keyboard"],
-      ["🥁", "drum"],
-      ["🪘", "long drum"],
-      ["🎷", "saxophone"],
-      ["🎺", "trumpet"],
-      ["🎸", "guitar"],
-      ["🪕", "banjo"],
-      ["🎻", "violin"],
-      ["🎲", "game die"],
-      ["♟️", "chess pawn"],
-      ["🎯", "bullseye"],
-      ["🎳", "bowling"],
-      ["🏆", "trophy"],
-      ["🏅", "sports medal"],
-      ["🥇", "1st place medal"],
-      ["🥈", "2nd place medal"],
-      ["🥉", "3rd place medal"],
-      ["🎖️", "military medal"],
-      ["🏵️", "rosette"],
-      ["🎗️", "reminder ribbon"],
-      ["🎫", "ticket"],
-      ["🎟️", "admission tickets"],
-      ["🎪", "circus tent"],
-      ["🤹", "juggling"],
-      ["🎨", "artist palette"],
-      ["🧵", "thread"],
-      ["🪡", "sewing needle"],
-      ["🧶", "yarn"],
-      ["🪢", "knot"]
+      [
+        "⚽",
+        "futebol ball"
+      ],
+      [
+        "🏀",
+        "basquete"
+      ],
+      [
+        "🏈",
+        "american futebol americano"
+      ],
+      [
+        "⚾",
+        "baseball"
+      ],
+      [
+        "🥎",
+        "softball"
+      ],
+      [
+        "🎾",
+        "tênis ball"
+      ],
+      [
+        "🏐",
+        "volleyball"
+      ],
+      [
+        "🏉",
+        "rugby futebol americano"
+      ],
+      [
+        "🥏",
+        "flying disc"
+      ],
+      [
+        "🎱",
+        "pool 8 ball"
+      ],
+      [
+        "🪀",
+        "yo-yo"
+      ],
+      [
+        "🏓",
+        "ping pong"
+      ],
+      [
+        "🏸",
+        "badminton"
+      ],
+      [
+        "🏒",
+        "ice hockey"
+      ],
+      [
+        "🏑",
+        "field hockey"
+      ],
+      [
+        "🥍",
+        "lacrosse"
+      ],
+      [
+        "🏏",
+        "cricket game"
+      ],
+      [
+        "🪃",
+        "boomerang"
+      ],
+      [
+        "🥅",
+        "goal net"
+      ],
+      [
+        "⛳",
+        "flag in hole"
+      ],
+      [
+        "🪁",
+        "kite"
+      ],
+      [
+        "🏹",
+        "bow and seta"
+      ],
+      [
+        "🎣",
+        "peixeing pole"
+      ],
+      [
+        "🤿",
+        "diving máscarroa"
+      ],
+      [
+        "🥊",
+        "boxing glove"
+      ],
+      [
+        "🥋",
+        "martial arts uniform"
+      ],
+      [
+        "🎽",
+        "running shirt"
+      ],
+      [
+        "🛹",
+        "skateboard"
+      ],
+      [
+        "🛼",
+        "roller skate"
+      ],
+      [
+        "🛷",
+        "sled"
+      ],
+      [
+        "⛸️",
+        "ice skate"
+      ],
+      [
+        "🎿",
+        "skis"
+      ],
+      [
+        "🥌",
+        "curling stone"
+      ],
+      [
+        "🎯",
+        "bullseye"
+      ],
+      [
+        "🪀",
+        "yo-yo"
+      ],
+      [
+        "🎮",
+        "video game"
+      ],
+      [
+        "🕹️",
+        "joystick"
+      ],
+      [
+        "🎰",
+        "slot machine"
+      ],
+      [
+        "🎲",
+        "game die"
+      ],
+      [
+        "♟️",
+        "chess pawn"
+      ],
+      [
+        "🎭",
+        "performing arts"
+      ],
+      [
+        "🎨",
+        "artist palette"
+      ],
+      [
+        "🎬",
+        "clapper board"
+      ],
+      [
+        "🎤",
+        "microtelefone"
+      ],
+      [
+        "🎧",
+        "headtelefone"
+      ],
+      [
+        "🎼",
+        "musical score"
+      ],
+      [
+        "🎹",
+        "musical teclado"
+      ],
+      [
+        "🥁",
+        "drum"
+      ],
+      [
+        "🪘",
+        "long drum"
+      ],
+      [
+        "🎷",
+        "saxotelefone"
+      ],
+      [
+        "🎺",
+        "trumpet"
+      ],
+      [
+        "🎸",
+        "violão"
+      ],
+      [
+        "🪕",
+        "banjo"
+      ],
+      [
+        "🎻",
+        "violin"
+      ],
+      [
+        "🎲",
+        "game die"
+      ],
+      [
+        "♟️",
+        "chess pawn"
+      ],
+      [
+        "🎯",
+        "bullseye"
+      ],
+      [
+        "🎳",
+        "bcorujaing"
+      ],
+      [
+        "🏆",
+        "trophy"
+      ],
+      [
+        "🏅",
+        "sports medal"
+      ],
+      [
+        "🥇",
+        "1st place medal"
+      ],
+      [
+        "🥈",
+        "2nd place medal"
+      ],
+      [
+        "🥉",
+        "3rd place medal"
+      ],
+      [
+        "🎖️",
+        "military medal"
+      ],
+      [
+        "🏵️",
+        "rosette"
+      ],
+      [
+        "🎗️",
+        "reminder ribbon"
+      ],
+      [
+        "🎫",
+        "ticket"
+      ],
+      [
+        "🎟️",
+        "admission tickets"
+      ],
+      [
+        "🎪",
+        "circus tent"
+      ],
+      [
+        "🤹",
+        "juggling"
+      ],
+      [
+        "🎨",
+        "artist palette"
+      ],
+      [
+        "🧵",
+        "thread"
+      ],
+      [
+        "🪡",
+        "sewing needle"
+      ],
+      [
+        "🧶",
+        "yarn"
+      ],
+      [
+        "🪢",
+        "knot"
+      ]
     ]
   },
   "travel": {
     "name": "Viagem",
     "emojis": [
-      ["🚗", "automobile"],
-      ["🚕", "taxi"],
-      ["🚙", "sport utility vehicle"],
-      ["🚌", "bus"],
-      ["🚎", "trolleybus"],
-      ["🏎️", "racing car"],
-      ["🚓", "police car"],
-      ["🚑", "ambulance"],
-      ["🚒", "fire engine"],
-      ["🚐", "minibus"],
-      ["🛻", "pickup truck"],
-      ["🚚", "delivery truck"],
-      ["🚛", "articulated lorry"],
-      ["🚜", "tractor"],
-      ["🏍️", "motorcycle"],
-      ["🛵", "motor scooter"],
-      ["🚲", "bicycle"],
-      ["🛴", "kick scooter"],
-      ["🚨", "police car light"],
-      ["🚔", "oncoming police car"],
-      ["🚍", "oncoming bus"],
-      ["🚘", "oncoming automobile"],
-      ["🚖", "oncoming taxi"],
-      ["🚡", "aerial tramway"],
-      ["🚠", "mountain cableway"],
-      ["🚟", "suspension railway"],
-      ["🚃", "railway car"],
-      ["🚋", "tram car"],
-      ["🚞", "mountain railway"],
-      ["🚝", "monorail"],
-      ["🚄", "high-speed train"],
-      ["🚅", "bullet train"],
-      ["🚈", "light rail"],
-      ["🚂", "locomotive"],
-      ["🚆", "train"],
-      ["🚇", "metro"],
-      ["🚊", "tram"],
-      ["🚉", "station"],
-      ["✈️", "airplane"],
-      ["🛫", "airplane departure"],
-      ["🛬", "airplane arrival"],
-      ["🪂", "parachute"],
-      ["💺", "seat"],
-      ["🛰️", "satellite"],
-      ["🚀", "rocket"],
-      ["🛸", "flying saucer"],
-      ["🚁", "helicopter"],
-      ["🛶", "canoe"],
-      ["⛵", "sailboat"],
-      ["🚤", "speedboat"],
-      ["🛳️", "passenger ship"],
-      ["⛴️", "ferry"],
-      ["🛥️", "motor boat"],
-      ["🚢", "ship"],
-      ["⚓", "anchor"],
-      ["🪝", "hook"],
-      ["⛽", "fuel pump"],
-      ["🚧", "construction"],
-      ["🚦", "vertical traffic light"],
-      ["🚥", "horizontal traffic light"],
-      ["🛑", "stop sign"],
-      ["🚏", "bus stop"],
-      ["🛣️", "motorway"],
-      ["🛤️", "railway track"],
-      ["🛢️", "oil drum"],
-      ["💈", "barber pole"],
-      ["🚲", "bicycle"],
-      ["🚟", "suspension railway"],
-      ["🚠", "mountain cableway"],
-      ["🚡", "aerial tramway"],
-      ["🗺️", "world map"],
-      ["🗿", "moai"],
-      ["🗽", "statue of liberty"],
-      ["🏰", "castle"],
-      ["🏯", "Japanese castle"],
-      ["🏟️", "stadium"],
-      ["🎡", "ferris wheel"],
-      ["🎢", "roller coaster"],
-      ["🎠", "carousel horse"],
-      ["⛲", "fountain"],
-      ["⛱️", "umbrella on ground"],
-      ["🌁", "foggy"],
-      ["🌃", "night with stars"],
-      ["🏙️", "cityscape"],
-      ["🌄", "sunrise over mountains"],
-      ["🌅", "sunrise"],
-      ["🌆", "cityscape at dusk"],
-      ["🌇", "sunset"],
-      ["🌉", "bridge at night"],
-      ["♨️", "hot springs"],
-      ["🗼", "Tokyo tower"],
-      ["🗽", "statue of liberty"]
+      [
+        "🚗",
+        "autocelular"
+      ],
+      [
+        "🚕",
+        "táxi"
+      ],
+      [
+        "🚙",
+        "sport utility vehicle"
+      ],
+      [
+        "🚌",
+        "ônibus"
+      ],
+      [
+        "🚎",
+        "trolleyônibus"
+      ],
+      [
+        "🏎️",
+        "racing carro"
+      ],
+      [
+        "🚓",
+        "police carro"
+      ],
+      [
+        "🚑",
+        "ambulance"
+      ],
+      [
+        "🚒",
+        "fogo engine"
+      ],
+      [
+        "🚐",
+        "miniônibus"
+      ],
+      [
+        "🛻",
+        "pickup truck"
+      ],
+      [
+        "🚚",
+        "delivery truck"
+      ],
+      [
+        "🚛",
+        "articulated lorry"
+      ],
+      [
+        "🚜",
+        "tractor"
+      ],
+      [
+        "🏍️",
+        "motorcycle"
+      ],
+      [
+        "🛵",
+        "motor scooter"
+      ],
+      [
+        "🚲",
+        "bicycle"
+      ],
+      [
+        "🛴",
+        "kick scooter"
+      ],
+      [
+        "🚨",
+        "police carro light"
+      ],
+      [
+        "🚔",
+        "oncoming police carro"
+      ],
+      [
+        "🚍",
+        "oncoming ônibus"
+      ],
+      [
+        "🚘",
+        "oncoming autocelular"
+      ],
+      [
+        "🚖",
+        "oncoming táxi"
+      ],
+      [
+        "🚡",
+        "aerial tramway"
+      ],
+      [
+        "🚠",
+        "mountain cableway"
+      ],
+      [
+        "🚟",
+        "suspension railway"
+      ],
+      [
+        "🚃",
+        "railway carro"
+      ],
+      [
+        "🚋",
+        "tram carro"
+      ],
+      [
+        "🚞",
+        "mountain railway"
+      ],
+      [
+        "🚝",
+        "monorail"
+      ],
+      [
+        "🚄",
+        "high-speed trem"
+      ],
+      [
+        "🚅",
+        "bullet trem"
+      ],
+      [
+        "🚈",
+        "light rail"
+      ],
+      [
+        "🚂",
+        "locomotive"
+      ],
+      [
+        "🚆",
+        "trem"
+      ],
+      [
+        "🚇",
+        "metro"
+      ],
+      [
+        "🚊",
+        "tram"
+      ],
+      [
+        "🚉",
+        "station"
+      ],
+      [
+        "✈️",
+        "avião"
+      ],
+      [
+        "🛫",
+        "avião departure"
+      ],
+      [
+        "🛬",
+        "avião arrival"
+      ],
+      [
+        "🪂",
+        "parachute"
+      ],
+      [
+        "💺",
+        "seat"
+      ],
+      [
+        "🛰️",
+        "satellite"
+      ],
+      [
+        "🚀",
+        "foguete"
+      ],
+      [
+        "🛸",
+        "flying saucer"
+      ],
+      [
+        "🚁",
+        "helicopter"
+      ],
+      [
+        "🛶",
+        "canoe"
+      ],
+      [
+        "⛵",
+        "sailboat"
+      ],
+      [
+        "🚤",
+        "speedboat"
+      ],
+      [
+        "🛳️",
+        "passenger navio"
+      ],
+      [
+        "⛴️",
+        "ferry"
+      ],
+      [
+        "🛥️",
+        "motor boat"
+      ],
+      [
+        "🚢",
+        "navio"
+      ],
+      [
+        "⚓",
+        "anchor"
+      ],
+      [
+        "🪝",
+        "hook"
+      ],
+      [
+        "⛽",
+        "fuel pump"
+      ],
+      [
+        "🚧",
+        "construction"
+      ],
+      [
+        "🚦",
+        "vertical traffic light"
+      ],
+      [
+        "🚥",
+        "horizontal traffic light"
+      ],
+      [
+        "🛑",
+        "stop sign"
+      ],
+      [
+        "🚏",
+        "ônibus stop"
+      ],
+      [
+        "🛣️",
+        "motorway"
+      ],
+      [
+        "🛤️",
+        "railway track"
+      ],
+      [
+        "🛢️",
+        "oil drum"
+      ],
+      [
+        "💈",
+        "barber pole"
+      ],
+      [
+        "🚲",
+        "bicycle"
+      ],
+      [
+        "🚟",
+        "suspension railway"
+      ],
+      [
+        "🚠",
+        "mountain cableway"
+      ],
+      [
+        "🚡",
+        "aerial tramway"
+      ],
+      [
+        "🗺️",
+        "world map"
+      ],
+      [
+        "🗿",
+        "moai"
+      ],
+      [
+        "🗽",
+        "estátua of liberdade"
+      ],
+      [
+        "🏰",
+        "castle"
+      ],
+      [
+        "🏯",
+        "japanese castle"
+      ],
+      [
+        "🏟️",
+        "stadium"
+      ],
+      [
+        "🎡",
+        "ferris wheel"
+      ],
+      [
+        "🎢",
+        "roller coaster"
+      ],
+      [
+        "🎠",
+        "carroousel cavalo"
+      ],
+      [
+        "⛲",
+        "fountain"
+      ],
+      [
+        "⛱️",
+        "umbrella on ground"
+      ],
+      [
+        "🌁",
+        "foggy"
+      ],
+      [
+        "🌃",
+        "noite com estrelas"
+      ],
+      [
+        "🏙️",
+        "cidade"
+      ],
+      [
+        "🌄",
+        "solrise over montanhas"
+      ],
+      [
+        "🌅",
+        "solrise"
+      ],
+      [
+        "🌆",
+        "cidade at dusk"
+      ],
+      [
+        "🌇",
+        "solset"
+      ],
+      [
+        "🌉",
+        "ponte at noite"
+      ],
+      [
+        "♨️",
+        "quente fontes"
+      ],
+      [
+        "🗼",
+        "tokyo torre"
+      ],
+      [
+        "🗽",
+        "estátua of liberdade"
+      ]
     ]
   },
   "objects": {
     "name": "Objetos",
     "emojis": [
-      ["⌚", "watch"],
-      ["📱", "mobile phone"],
-      ["📲", "mobile phone with arrow"],
-      ["💻", "laptop"],
-      ["⌨️", "keyboard"],
-      ["🖥️", "desktop computer"],
-      ["🖨️", "printer"],
-      ["🖱️", "computer mouse"],
-      ["🖲️", "trackball"],
-      ["💽", "computer disk"],
-      ["💾", "floppy disk"],
-      ["💿", "optical disk"],
-      ["📀", "dvd"],
-      ["🧮", "abacus"],
-      ["🎥", "movie camera"],
-      ["🎞️", "film frames"],
-      ["📽️", "film projector"],
-      ["🎬", "clapper board"],
-      ["📺", "television"],
-      ["📷", "camera"],
-      ["📸", "camera with flash"],
-      ["📹", "video camera"],
-      ["📼", "videocassette"],
-      ["🔍", "magnifying glass tilted left"],
-      ["🔎", "magnifying glass tilted right"],
-      ["🕯️", "candle"],
-      ["💡", "light bulb"],
-      ["🔦", "flashlight"],
-      ["🏮", "red paper lantern"],
-      ["🪔", "diya lamp"],
-      ["📔", "notebook with decorative cover"],
-      ["📕", "closed book"],
-      ["📖", "open book"],
-      ["📗", "green book"],
-      ["📘", "blue book"],
-      ["📙", "orange book"],
-      ["📚", "books"],
-      ["📓", "notebook"],
-      ["📒", "ledger"],
-      ["📃", "page with curl"],
-      ["📜", "scroll"],
-      ["📄", "page facing up"],
-      ["📰", "newspaper"],
-      ["🗞️", "rolled-up newspaper"],
-      ["📑", "bookmark tabs"],
-      ["🔖", "bookmark"],
-      ["🏷️", "label"],
-      ["💰", "money bag"],
-      ["🪙", "coin"],
-      ["💴", "yen banknote"],
-      ["💵", "dollar banknote"],
-      ["💶", "euro banknote"],
-      ["💷", "pound banknote"],
-      ["💸", "money with wings"],
-      ["💳", "credit card"],
-      ["🧾", "receipt"],
-      ["💹", "chart increasing with yen"],
-      ["✉️", "envelope"],
-      ["📧", "e-mail"],
-      ["📨", "incoming envelope"],
-      ["📩", "envelope with arrow"],
-      ["📤", "outbox tray"],
-      ["📥", "inbox tray"],
-      ["📦", "package"],
-      ["📫", "closed mailbox with raised flag"],
-      ["📪", "closed mailbox with lowered flag"],
-      ["📬", "open mailbox with raised flag"],
-      ["📭", "open mailbox with lowered flag"],
-      ["📮", "postbox"],
-      ["🗳️", "ballot box with ballot"],
-      ["✏️", "pencil"],
-      ["✒️", "black nib"],
-      ["🖋️", "fountain pen"],
-      ["🖊️", "pen"],
-      ["🖌️", "paintbrush"],
-      ["🖍️", "crayon"],
-      ["📝", "memo"],
-      ["💼", "briefcase"],
-      ["📁", "file folder"],
-      ["📂", "open file folder"],
-      ["🗂️", "card index dividers"],
-      ["📅", "calendar"],
-      ["📆", "tear-off calendar"],
-      ["🗒️", "spiral notepad"],
-      ["🗓️", "spiral calendar"],
-      ["📇", "card index"],
-      ["📈", "chart increasing"],
-      ["📉", "chart decreasing"],
-      ["📊", "bar chart"],
-      ["📋", "clipboard"],
-      ["📌", "pushpin"],
-      ["📍", "round pushpin"],
-      ["📎", "paperclip"],
-      ["🖇️", "linked paperclips"],
-      ["📏", "straight ruler"],
-      ["📐", "triangular ruler"],
-      ["✂️", "scissors"],
-      ["🗃️", "card file box"],
-      ["🗄️", "file cabinet"],
-      ["🗑️", "wastebasket"],
-      ["🔒", "locked"],
-      ["🔓", "unlocked"],
-      ["🔏", "locked with pen"],
-      ["🔐", "locked with key"],
-      ["🔑", "key"],
-      ["🗝️", "old key"],
-      ["🔨", "hammer"],
-      ["🪓", "axe"],
-      ["⛏️", "pick"],
-      ["⚒️", "hammer and pick"],
-      ["🛠️", "hammer and wrench"],
-      ["🗡️", "dagger"],
-      ["⚔️", "crossed swords"],
-      ["🔫", "pistol"],
-      ["🛡️", "shield"],
-      ["🪚", "carpentry saw"],
-      ["🔧", "wrench"],
-      ["🪛", "screwdriver"],
-      ["🔩", "nut and bolt"],
-      ["⚙️", "gear"],
-      ["🗜️", "clamp"],
-      ["⚖️", "balance scale"],
-      ["🦯", "white cane"],
-      ["🔗", "link"],
-      ["⛓️", "chains"],
-      ["🪝", "hook"],
-      ["🧰", "toolbox"],
-      ["🧲", "magnet"],
-      ["🪜", "ladder"],
-      ["⚗️", "alembic"],
-      ["🧪", "test tube"],
-      ["🧫", "petri dish"],
-      ["🧬", "dna"],
-      ["🔬", "microscope"],
-      ["🔭", "telescope"],
-      ["📡", "satellite antenna"],
-      ["💉", "syringe"],
-      ["🩸", "drop of blood"],
-      ["💊", "pill"],
-      ["🩹", "adhesive bandage"],
-      ["🩼", "crutch"],
-      ["🩺", "stethoscope"],
-      ["🚪", "door"],
-      ["🛗", "elevator"],
-      ["🪞", "mirror"],
-      ["🪟", "window"],
-      ["🛏️", "bed"],
-      ["🛋️", "couch and lamp"],
-      ["🪑", "chair"],
-      ["🚽", "toilet"],
-      ["🪠", "plunger"],
-      ["🚿", "shower"],
-      ["🛁", "bathtub"],
-      ["🪤", "mouse trap"],
-      ["🪒", "razor"],
-      ["🪣", "bucket"],
-      ["🧴", "lotion bottle"],
-      ["🧷", "safety pin"],
-      ["🧹", "broom"],
-      ["🧺", "basket"],
-      ["🧻", "roll of paper"],
-      ["🧼", "soap"],
-      ["🫧", "bubbles"],
-      ["🪥", "toothbrush"],
-      ["🧽", "sponge"],
-      ["🧯", "fire extinguisher"],
-      ["🛒", "shopping cart"],
-      ["🚬", "cigarette"],
-      ["⚰️", "coffin"],
-      ["🪦", "headstone"],
-      ["⚱️", "funeral urn"],
-      ["🧿", "nazar amulet"],
-      ["🪬", "hamsa"],
-      ["🪪", "identification card"]
+      [
+        "⌚",
+        "relógio"
+      ],
+      [
+        "📱",
+        "celular telefone"
+      ],
+      [
+        "📲",
+        "celular telefone com seta"
+      ],
+      [
+        "💻",
+        "notelivro"
+      ],
+      [
+        "⌨️",
+        "teclado"
+      ],
+      [
+        "🖥️",
+        "desktop computador"
+      ],
+      [
+        "🖨️",
+        "impressora"
+      ],
+      [
+        "🖱️",
+        "computador rato"
+      ],
+      [
+        "🖲️",
+        "trackball"
+      ],
+      [
+        "💽",
+        "computador disk"
+      ],
+      [
+        "💾",
+        "floppy disk"
+      ],
+      [
+        "💿",
+        "optical disk"
+      ],
+      [
+        "📀",
+        "dvd"
+      ],
+      [
+        "🧮",
+        "abacus"
+      ],
+      [
+        "🎥",
+        "movie câmera"
+      ],
+      [
+        "🎞️",
+        "film frames"
+      ],
+      [
+        "📽️",
+        "film projector"
+      ],
+      [
+        "🎬",
+        "clapper board"
+      ],
+      [
+        "📺",
+        "television"
+      ],
+      [
+        "📷",
+        "câmera"
+      ],
+      [
+        "📸",
+        "câmera com flash"
+      ],
+      [
+        "📹",
+        "video câmera"
+      ],
+      [
+        "📼",
+        "videocassette"
+      ],
+      [
+        "🔍",
+        "magnifying glass tilted left"
+      ],
+      [
+        "🔎",
+        "magnifying glass tilted right"
+      ],
+      [
+        "🕯️",
+        "candle"
+      ],
+      [
+        "💡",
+        "light bulb"
+      ],
+      [
+        "🔦",
+        "flashlight"
+      ],
+      [
+        "🏮",
+        "red paper lantern"
+      ],
+      [
+        "🪔",
+        "diya lamp"
+      ],
+      [
+        "📔",
+        "notelivro com decorative cover"
+      ],
+      [
+        "📕",
+        "closed livro"
+      ],
+      [
+        "📖",
+        "aberto livro"
+      ],
+      [
+        "📗",
+        "green livro"
+      ],
+      [
+        "📘",
+        "blue livro"
+      ],
+      [
+        "📙",
+        "orange livro"
+      ],
+      [
+        "📚",
+        "livros"
+      ],
+      [
+        "📓",
+        "notelivro"
+      ],
+      [
+        "📒",
+        "ledger"
+      ],
+      [
+        "📃",
+        "page com curl"
+      ],
+      [
+        "📜",
+        "scroll"
+      ],
+      [
+        "📄",
+        "page facing up"
+      ],
+      [
+        "📰",
+        "newspaper"
+      ],
+      [
+        "🗞️",
+        "rolled-up newspaper"
+      ],
+      [
+        "📑",
+        "livromark tabs"
+      ],
+      [
+        "🔖",
+        "livromark"
+      ],
+      [
+        "🏷️",
+        "label"
+      ],
+      [
+        "💰",
+        "dinheiro bag"
+      ],
+      [
+        "🪙",
+        "coin"
+      ],
+      [
+        "💴",
+        "yen banknote"
+      ],
+      [
+        "💵",
+        "dollar banknote"
+      ],
+      [
+        "💶",
+        "euro banknote"
+      ],
+      [
+        "💷",
+        "pound banknote"
+      ],
+      [
+        "💸",
+        "dinheiro com wings"
+      ],
+      [
+        "💳",
+        "credit carrod"
+      ],
+      [
+        "🧾",
+        "receipt"
+      ],
+      [
+        "💹",
+        "chart increasing com yen"
+      ],
+      [
+        "✉️",
+        "envelope"
+      ],
+      [
+        "📧",
+        "e-mail"
+      ],
+      [
+        "📨",
+        "incoming envelope"
+      ],
+      [
+        "📩",
+        "envelope com seta"
+      ],
+      [
+        "📤",
+        "outbox tray"
+      ],
+      [
+        "📥",
+        "inbox tray"
+      ],
+      [
+        "📦",
+        "package"
+      ],
+      [
+        "📫",
+        "closed mailbox com erguida flag"
+      ],
+      [
+        "📪",
+        "closed mailbox com lowered flag"
+      ],
+      [
+        "📬",
+        "aberto mailbox com erguida flag"
+      ],
+      [
+        "📭",
+        "aberto mailbox com lowered flag"
+      ],
+      [
+        "📮",
+        "postbox"
+      ],
+      [
+        "🗳️",
+        "ballot box com ballot"
+      ],
+      [
+        "✏️",
+        "pencil"
+      ],
+      [
+        "✒️",
+        "black nib"
+      ],
+      [
+        "🖋️",
+        "fountain pen"
+      ],
+      [
+        "🖊️",
+        "pen"
+      ],
+      [
+        "🖌️",
+        "paintbrush"
+      ],
+      [
+        "🖍️",
+        "crayon"
+      ],
+      [
+        "📝",
+        "memo"
+      ],
+      [
+        "💼",
+        "briefcase"
+      ],
+      [
+        "📁",
+        "file folder"
+      ],
+      [
+        "📂",
+        "aberto file folder"
+      ],
+      [
+        "🗂️",
+        "carrod index dividers"
+      ],
+      [
+        "📅",
+        "calendar"
+      ],
+      [
+        "📆",
+        "tear-off calendar"
+      ],
+      [
+        "🗒️",
+        "espiral notepad"
+      ],
+      [
+        "🗓️",
+        "espiral calendar"
+      ],
+      [
+        "📇",
+        "carrod index"
+      ],
+      [
+        "📈",
+        "chart increasing"
+      ],
+      [
+        "📉",
+        "chart decreasing"
+      ],
+      [
+        "📊",
+        "bar chart"
+      ],
+      [
+        "📋",
+        "clipboard"
+      ],
+      [
+        "📌",
+        "pushpin"
+      ],
+      [
+        "📍",
+        "round pushpin"
+      ],
+      [
+        "📎",
+        "paperclip"
+      ],
+      [
+        "🖇️",
+        "linked paperclips"
+      ],
+      [
+        "📏",
+        "straight ruler"
+      ],
+      [
+        "📐",
+        "triangular ruler"
+      ],
+      [
+        "✂️",
+        "scissors"
+      ],
+      [
+        "🗃️",
+        "carrod file box"
+      ],
+      [
+        "🗄️",
+        "file cabinet"
+      ],
+      [
+        "🗑️",
+        "wastebasket"
+      ],
+      [
+        "🔒",
+        "locked"
+      ],
+      [
+        "🔓",
+        "unlocked"
+      ],
+      [
+        "🔏",
+        "locked com pen"
+      ],
+      [
+        "🔐",
+        "locked com key"
+      ],
+      [
+        "🔑",
+        "key"
+      ],
+      [
+        "🗝️",
+        "old key"
+      ],
+      [
+        "🔨",
+        "hammer"
+      ],
+      [
+        "🪓",
+        "axe"
+      ],
+      [
+        "⛏️",
+        "pick"
+      ],
+      [
+        "⚒️",
+        "hammer and pick"
+      ],
+      [
+        "🛠️",
+        "hammer and wrench"
+      ],
+      [
+        "🗡️",
+        "dagger"
+      ],
+      [
+        "⚔️",
+        "crossed swords"
+      ],
+      [
+        "🔫",
+        "pistol"
+      ],
+      [
+        "🛡️",
+        "shield"
+      ],
+      [
+        "🪚",
+        "carropentry saw"
+      ],
+      [
+        "🔧",
+        "wrench"
+      ],
+      [
+        "🪛",
+        "screwdriver"
+      ],
+      [
+        "🔩",
+        "nut and bolt"
+      ],
+      [
+        "⚙️",
+        "gear"
+      ],
+      [
+        "🗜️",
+        "clamp"
+      ],
+      [
+        "⚖️",
+        "balance scale"
+      ],
+      [
+        "🦯",
+        "white cane"
+      ],
+      [
+        "🔗",
+        "link"
+      ],
+      [
+        "⛓️",
+        "chains"
+      ],
+      [
+        "🪝",
+        "hook"
+      ],
+      [
+        "🧰",
+        "toolbox"
+      ],
+      [
+        "🧲",
+        "magnet"
+      ],
+      [
+        "🪜",
+        "ladder"
+      ],
+      [
+        "⚗️",
+        "alembic"
+      ],
+      [
+        "🧪",
+        "test tube"
+      ],
+      [
+        "🧫",
+        "petri dish"
+      ],
+      [
+        "🧬",
+        "dna"
+      ],
+      [
+        "🔬",
+        "microscope"
+      ],
+      [
+        "🔭",
+        "telescope"
+      ],
+      [
+        "📡",
+        "satellite antenna"
+      ],
+      [
+        "💉",
+        "syringe"
+      ],
+      [
+        "🩸",
+        "drop of blood"
+      ],
+      [
+        "💊",
+        "pill"
+      ],
+      [
+        "🩹",
+        "adhesive bandage"
+      ],
+      [
+        "🩼",
+        "crutch"
+      ],
+      [
+        "🩺",
+        "stethoscope"
+      ],
+      [
+        "🚪",
+        "door"
+      ],
+      [
+        "🛗",
+        "elevator"
+      ],
+      [
+        "🪞",
+        "mirror"
+      ],
+      [
+        "🪟",
+        "window"
+      ],
+      [
+        "🛏️",
+        "bed"
+      ],
+      [
+        "🛋️",
+        "couch and lamp"
+      ],
+      [
+        "🪑",
+        "chair"
+      ],
+      [
+        "🚽",
+        "toilet"
+      ],
+      [
+        "🪠",
+        "plunger"
+      ],
+      [
+        "🚿",
+        "shower"
+      ],
+      [
+        "🛁",
+        "morcegohtub"
+      ],
+      [
+        "🪤",
+        "rato trap"
+      ],
+      [
+        "🪒",
+        "razor"
+      ],
+      [
+        "🪣",
+        "bucket"
+      ],
+      [
+        "🧴",
+        "lotion bottle"
+      ],
+      [
+        "🧷",
+        "safety pin"
+      ],
+      [
+        "🧹",
+        "broom"
+      ],
+      [
+        "🧺",
+        "basket"
+      ],
+      [
+        "🧻",
+        "roll of paper"
+      ],
+      [
+        "🧼",
+        "soap"
+      ],
+      [
+        "🫧",
+        "bubbles"
+      ],
+      [
+        "🪥",
+        "toothbrush"
+      ],
+      [
+        "🧽",
+        "sponge"
+      ],
+      [
+        "🧯",
+        "fogo extinguisher"
+      ],
+      [
+        "🛒",
+        "shopping carrot"
+      ],
+      [
+        "🚬",
+        "cigarette"
+      ],
+      [
+        "⚰️",
+        "coffin"
+      ],
+      [
+        "🪦",
+        "headstone"
+      ],
+      [
+        "⚱️",
+        "funeral urn"
+      ],
+      [
+        "🧿",
+        "nazar amulet"
+      ],
+      [
+        "🪬",
+        "hamsa"
+      ],
+      [
+        "🪪",
+        "identifigatoion carrod"
+      ]
     ]
   },
   "symbols": {
     "name": "Símbolos",
     "emojis": [
-      ["❤️", "red heart"],
-      ["🧡", "orange heart"],
-      ["💛", "yellow heart"],
-      ["💚", "green heart"],
-      ["💙", "blue heart"],
-      ["💜", "purple heart"],
-      ["🖤", "black heart"],
-      ["🤍", "white heart"],
-      ["🤎", "brown heart"],
-      ["💔", "broken heart"],
-      ["❣️", "heart exclamation"],
-      ["💕", "two hearts"],
-      ["💞", "revolving hearts"],
-      ["💓", "beating heart"],
-      ["💗", "growing heart"],
-      ["💖", "sparkling heart"],
-      ["💘", "heart with arrow"],
-      ["💝", "heart with ribbon"],
-      ["☮️", "peace symbol"],
-      ["✝️", "latin cross"],
-      ["☪️", "star and crescent"],
-      ["🕉️", "om"],
-      ["☸️", "wheel of dharma"],
-      ["✡️", "star of david"],
-      ["🔯", "dotted six-pointed star"],
-      ["🕎", "menorah"],
-      ["☯️", "yin yang"],
-      ["☦️", "orthodox cross"],
-      ["🛐", "place of worship"],
-      ["⛎", "ophiuchus"],
-      ["♈", "aries"],
-      ["♉", "taurus"],
-      ["♊", "gemini"],
-      ["♋", "cancer"],
-      ["♌", "leo"],
-      ["♍", "virgo"],
-      ["♎", "libra"],
-      ["♏", "scorpio"],
-      ["♐", "sagittarius"],
-      ["♑", "capricorn"],
-      ["♒", "aquarius"],
-      ["♓", "pisces"],
-      ["🆔", "identity button"],
-      ["⚛️", "atom symbol"],
-      ["🉑", "japanese \"acceptable\" button"],
-      ["☢️", "radioactive"],
-      ["☣️", "biohazard"],
-      ["📴", "mobile phone off"],
-      ["📳", "vibration mode"],
-      ["🈶", "japanese \"not free of charge\" button"],
-      ["🈚", "japanese \"free of charge\" button"],
-      ["🈸", "japanese \"application\" button"],
-      ["🈺", "japanese \"open for business\" button"],
-      ["🈷️", "japanese \"monthly amount\" button"],
-      ["✴️", "eight-pointed star"],
-      ["🆚", "versus button"],
-      ["💮", "white flower"],
-      ["🉐", "japanese \"bargain\" button"],
-      ["㊙️", "japanese \"secret\" button"],
-      ["㊗️", "japanese \"congratulations\" button"],
-      ["🈴", "japanese \"passing grade\" button"],
-      ["🈵", "japanese \"no vacancy\" button"],
-      ["🈹", "japanese \"discount\" button"],
-      ["🈲", "japanese \"prohibited\" button"],
-      ["🅰️", "a button"],
-      ["🅱️", "b button"],
-      ["🆎", "ab button"],
-      ["🆑", "cl button"],
-      ["🅾️", "o button"],
-      ["🆘", "sos button"],
-      ["❌", "cross mark"],
-      ["⭕", "hollow red circle"],
-      ["🛑", "stop sign"],
-      ["⛔", "no entry"],
-      ["📛", "name badge"],
-      ["🚫", "prohibited"],
-      ["💯", "hundred points"],
-      ["💢", "anger symbol"],
-      ["♨️", "hot springs"],
-      ["🚷", "no pedestrians"],
-      ["🚯", "no littering"],
-      ["🚳", "no bicycles"],
-      ["🚱", "non-potable water"],
-      ["🔞", "no one under eighteen"],
-      ["📵", "no mobile phones"],
-      ["🔕", "mute"],
-      ["🚭", "no smoking"],
-      ["❗", "exclamation mark"],
-      ["❕", "white exclamation mark"],
-      ["❓", "question mark"],
-      ["❔", "white question mark"],
-      ["‼️", "double exclamation mark"],
-      ["⁉️", "exclamation question mark"],
-      ["🔅", "dim button"],
-      ["🔆", "bright button"],
-      ["〽️", "part alternation mark"],
-      ["⚠️", "warning"],
-      ["🚸", "children crossing"],
-      ["🔱", "trident emblem"],
-      ["⚜️", "fleur-de-lis"],
-      ["🔰", "japanese symbol for beginner"],
-      ["♻️", "recycling symbol"],
-      ["✅", "check mark button"],
-      ["🈯", "japanese \"reserved\" button"],
-      ["💹", "chart increasing with yen"],
-      ["❇️", "sparkle"],
-      ["✳️", "eight-spoked asterisk"],
-      ["❎", "cross mark button"],
-      ["🌐", "globe with meridians"],
-      ["💠", "diamond with a dot"],
-      ["Ⓜ️", "circled m"],
-      ["🌀", "cyclone"],
-      ["💤", "ZZZ"],
-      ["🏧", "atm sign"],
-      ["🚾", "water closet"],
-      ["♿", "wheelchair symbol"],
-      ["🅿️", "P button"],
-      ["🛗", "elevator"],
-      ["🈳", "japanese \"vacancy\" button"],
-      ["🈂️", "japanese \"service charge\" button"],
-      ["🛂", "passport control"],
-      ["🛃", "customs"],
-      ["🛄", "baggage claim"],
-      ["🛅", "left luggage"],
-      ["🚹", "men's room"],
-      ["🚺", "women's room"],
-      ["🚻", "restroom"],
-      ["⚧️", "transgender symbol"],
-      ["🚼", "baby symbol"],
-      ["⚦", "male sign"],
-      ["⚧️", "transgender symbol"],
-      ["⚨", "vertical male sign"],
-      ["⚩", "horizontal male sign"],
-      ["⚦", "male sign"],
-      ["♀", "female sign"],
-      ["⚩", "horizontal female sign"],
-      ["⚨", "vertical female sign"],
-      ["♭", "music flat sign"],
-      ["♮", "music natural sign"],
-      ["♯", "music sharp sign"],
-      ["☰", "trigram for heaven"],
-      ["☱", "trigram for lake"],
-      ["☲", "trigram for fire"],
-      ["☳", "trigram for thunder"],
-      ["☴", "trigram for wind"],
-      ["☵", "trigram for water"],
-      ["☶", "trigram for mountain"],
-      ["☷", "trigram for earth"],
-      ["🕐", "one o'clock"],
-      ["🕑", "two o'clock"],
-      ["🕒", "three o'clock"],
-      ["🕓", "four o'clock"],
-      ["🕔", "five o'clock"],
-      ["🕕", "six o'clock"],
-      ["🕖", "seven o'clock"],
-      ["🕗", "eight o'clock"],
-      ["🕘", "nine o'clock"],
-      ["🕙", "ten o'clock"],
-      ["🕚", "eleven o'clock"],
-      ["🕛", "twelve o'clock"],
-      ["🕜", "one-thirty"],
-      ["🕝", "two-thirty"],
-      ["🕞", "three-thirty"],
-      ["🕟", "four-thirty"],
-      ["🕠", "five-thirty"],
-      ["🕡", "six-thirty"],
-      ["🕢", "seven-thirty"],
-      ["🕣", "eight-thirty"],
-      ["🕤", "nine-thirty"],
-      ["🕥", "ten-thirty"],
-      ["🕦", "eleven-thirty"],
-      ["🕧", "twelve-thirty"]
+      [
+        "❤️",
+        "red coração"
+      ],
+      [
+        "🧡",
+        "orange coração"
+      ],
+      [
+        "💛",
+        "yellow coração"
+      ],
+      [
+        "💚",
+        "green coração"
+      ],
+      [
+        "💙",
+        "blue coração"
+      ],
+      [
+        "💜",
+        "purple coração"
+      ],
+      [
+        "🖤",
+        "black coração"
+      ],
+      [
+        "🤍",
+        "white coração"
+      ],
+      [
+        "🤎",
+        "brown coração"
+      ],
+      [
+        "💔",
+        "broken coração"
+      ],
+      [
+        "❣️",
+        "coração exclamation"
+      ],
+      [
+        "💕",
+        "two corações"
+      ],
+      [
+        "💞",
+        "revolving corações"
+      ],
+      [
+        "💓",
+        "beating coração"
+      ],
+      [
+        "💗",
+        "growing coração"
+      ],
+      [
+        "💖",
+        "sparkling coração"
+      ],
+      [
+        "💘",
+        "coração com seta"
+      ],
+      [
+        "💝",
+        "coração com ribbon"
+      ],
+      [
+        "☮️",
+        "peace symbol"
+      ],
+      [
+        "✝️",
+        "latin cross"
+      ],
+      [
+        "☪️",
+        "estrela and crescent"
+      ],
+      [
+        "🕉️",
+        "om"
+      ],
+      [
+        "☸️",
+        "wheel of dharma"
+      ],
+      [
+        "✡️",
+        "estrela of david"
+      ],
+      [
+        "🔯",
+        "pontilhado six-pointed estrela"
+      ],
+      [
+        "🕎",
+        "menorah"
+      ],
+      [
+        "☯️",
+        "yin yang"
+      ],
+      [
+        "☦️",
+        "orthodox cross"
+      ],
+      [
+        "🛐",
+        "place of wornavio"
+      ],
+      [
+        "⛎",
+        "ophiuchus"
+      ],
+      [
+        "♈",
+        "aries"
+      ],
+      [
+        "♉",
+        "taurus"
+      ],
+      [
+        "♊",
+        "gemini"
+      ],
+      [
+        "♋",
+        "cancer"
+      ],
+      [
+        "♌",
+        "leo"
+      ],
+      [
+        "♍",
+        "virgo"
+      ],
+      [
+        "♎",
+        "libra"
+      ],
+      [
+        "♏",
+        "scorpio"
+      ],
+      [
+        "♐",
+        "sagittarius"
+      ],
+      [
+        "♑",
+        "capricorn"
+      ],
+      [
+        "♒",
+        "aquarius"
+      ],
+      [
+        "♓",
+        "pisces"
+      ],
+      [
+        "🆔",
+        "identity button"
+      ],
+      [
+        "⚛️",
+        "atom symbol"
+      ],
+      [
+        "🉑",
+        "japanese \"acceptable\" button"
+      ],
+      [
+        "☢️",
+        "radioactive"
+      ],
+      [
+        "☣️",
+        "biohazard"
+      ],
+      [
+        "📴",
+        "celular telefone off"
+      ],
+      [
+        "📳",
+        "vibration mode"
+      ],
+      [
+        "🈶",
+        "japanese \"not free of charge\" button"
+      ],
+      [
+        "🈚",
+        "japanese \"free of charge\" button"
+      ],
+      [
+        "🈸",
+        "japanese \"appligatoion\" button"
+      ],
+      [
+        "🈺",
+        "japanese \"open for ônibusiness\" button"
+      ],
+      [
+        "🈷️",
+        "japanese \"monthly amount\" button"
+      ],
+      [
+        "✴️",
+        "eight-pointed estrela"
+      ],
+      [
+        "🆚",
+        "versus button"
+      ],
+      [
+        "💮",
+        "white flower"
+      ],
+      [
+        "🉐",
+        "japanese \"bargain\" button"
+      ],
+      [
+        "㊙️",
+        "japanese \"secret\" button"
+      ],
+      [
+        "㊗️",
+        "japanese \"congratulations\" button"
+      ],
+      [
+        "🈴",
+        "japanese \"passing grade\" button"
+      ],
+      [
+        "🈵",
+        "japanese \"no vacancy\" button"
+      ],
+      [
+        "🈹",
+        "japanese \"discount\" button"
+      ],
+      [
+        "🈲",
+        "japanese \"prohibited\" button"
+      ],
+      [
+        "🅰️",
+        "a button"
+      ],
+      [
+        "🅱️",
+        "b button"
+      ],
+      [
+        "🆎",
+        "ab button"
+      ],
+      [
+        "🆑",
+        "cl button"
+      ],
+      [
+        "🅾️",
+        "o button"
+      ],
+      [
+        "🆘",
+        "sos button"
+      ],
+      [
+        "❌",
+        "cross mark"
+      ],
+      [
+        "⭕",
+        "hollow red circle"
+      ],
+      [
+        "🛑",
+        "stop sign"
+      ],
+      [
+        "⛔",
+        "no entry"
+      ],
+      [
+        "📛",
+        "name badge"
+      ],
+      [
+        "🚫",
+        "prohibited"
+      ],
+      [
+        "💯",
+        "hundred points"
+      ],
+      [
+        "💢",
+        "anger symbol"
+      ],
+      [
+        "♨️",
+        "quente fontes"
+      ],
+      [
+        "🚷",
+        "no pedestrians"
+      ],
+      [
+        "🚯",
+        "no littering"
+      ],
+      [
+        "🚳",
+        "no bicycles"
+      ],
+      [
+        "🚱",
+        "non-potable água"
+      ],
+      [
+        "🔞",
+        "no one sob eighteen"
+      ],
+      [
+        "📵",
+        "no celular telefones"
+      ],
+      [
+        "🔕",
+        "mute"
+      ],
+      [
+        "🚭",
+        "no smoking"
+      ],
+      [
+        "❗",
+        "exclamation mark"
+      ],
+      [
+        "❕",
+        "white exclamation mark"
+      ],
+      [
+        "❓",
+        "question mark"
+      ],
+      [
+        "❔",
+        "white question mark"
+      ],
+      [
+        "‼️",
+        "double exclamation mark"
+      ],
+      [
+        "⁉️",
+        "exclamation question mark"
+      ],
+      [
+        "🔅",
+        "dim button"
+      ],
+      [
+        "🔆",
+        "bright button"
+      ],
+      [
+        "〽️",
+        "part alternation mark"
+      ],
+      [
+        "⚠️",
+        "warning"
+      ],
+      [
+        "🚸",
+        "children crossing"
+      ],
+      [
+        "🔱",
+        "trident emblem"
+      ],
+      [
+        "⚜️",
+        "fleur-de-lis"
+      ],
+      [
+        "🔰",
+        "japanese symbol for beginner"
+      ],
+      [
+        "♻️",
+        "recycling symbol"
+      ],
+      [
+        "✅",
+        "check mark button"
+      ],
+      [
+        "🈯",
+        "japanese \"reserved\" button"
+      ],
+      [
+        "💹",
+        "chart increasing com yen"
+      ],
+      [
+        "❇️",
+        "sparkle"
+      ],
+      [
+        "✳️",
+        "eight-spoked asterisk"
+      ],
+      [
+        "❎",
+        "cross mark button"
+      ],
+      [
+        "🌐",
+        "globe com meridians"
+      ],
+      [
+        "💠",
+        "diamond com a dot"
+      ],
+      [
+        "Ⓜ️",
+        "circled m"
+      ],
+      [
+        "🌀",
+        "cyclone"
+      ],
+      [
+        "💤",
+        "zzz"
+      ],
+      [
+        "🏧",
+        "atm sign"
+      ],
+      [
+        "🚾",
+        "água closet"
+      ],
+      [
+        "♿",
+        "wheelchair symbol"
+      ],
+      [
+        "🅿️",
+        "p button"
+      ],
+      [
+        "🛗",
+        "elevator"
+      ],
+      [
+        "🈳",
+        "japanese \"vacancy\" button"
+      ],
+      [
+        "🈂️",
+        "japanese \"service charge\" button"
+      ],
+      [
+        "🛂",
+        "passport control"
+      ],
+      [
+        "🛃",
+        "customs"
+      ],
+      [
+        "🛄",
+        "baggage claim"
+      ],
+      [
+        "🛅",
+        "left luggage"
+      ],
+      [
+        "🚹",
+        "men's room"
+      ],
+      [
+        "🚺",
+        "women's room"
+      ],
+      [
+        "🚻",
+        "restroom"
+      ],
+      [
+        "⚧️",
+        "transgender symbol"
+      ],
+      [
+        "🚼",
+        "baby symbol"
+      ],
+      [
+        "⚦",
+        "male sign"
+      ],
+      [
+        "⚧️",
+        "transgender symbol"
+      ],
+      [
+        "⚨",
+        "vertical male sign"
+      ],
+      [
+        "⚩",
+        "horizontal male sign"
+      ],
+      [
+        "⚦",
+        "male sign"
+      ],
+      [
+        "♀",
+        "female sign"
+      ],
+      [
+        "⚩",
+        "horizontal female sign"
+      ],
+      [
+        "⚨",
+        "vertical female sign"
+      ],
+      [
+        "♭",
+        "music flat sign"
+      ],
+      [
+        "♮",
+        "music natural sign"
+      ],
+      [
+        "♯",
+        "music sharp sign"
+      ],
+      [
+        "☰",
+        "trigram for heaven"
+      ],
+      [
+        "☱",
+        "trigram for lake"
+      ],
+      [
+        "☲",
+        "trigram for fogo"
+      ],
+      [
+        "☳",
+        "trigram for thunder"
+      ],
+      [
+        "☴",
+        "trigram for wind"
+      ],
+      [
+        "☵",
+        "trigram for água"
+      ],
+      [
+        "☶",
+        "trigram for mountain"
+      ],
+      [
+        "☷",
+        "trigram for earth"
+      ],
+      [
+        "🕐",
+        "one o'clock"
+      ],
+      [
+        "🕑",
+        "two o'clock"
+      ],
+      [
+        "🕒",
+        "three o'clock"
+      ],
+      [
+        "🕓",
+        "four o'clock"
+      ],
+      [
+        "🕔",
+        "five o'clock"
+      ],
+      [
+        "🕕",
+        "six o'clock"
+      ],
+      [
+        "🕖",
+        "seven o'clock"
+      ],
+      [
+        "🕗",
+        "eight o'clock"
+      ],
+      [
+        "🕘",
+        "nine o'clock"
+      ],
+      [
+        "🕙",
+        "ten o'clock"
+      ],
+      [
+        "🕚",
+        "eleven o'clock"
+      ],
+      [
+        "🕛",
+        "twelve o'clock"
+      ],
+      [
+        "🕜",
+        "one-thirty"
+      ],
+      [
+        "🕝",
+        "two-thirty"
+      ],
+      [
+        "🕞",
+        "three-thirty"
+      ],
+      [
+        "🕟",
+        "four-thirty"
+      ],
+      [
+        "🕠",
+        "five-thirty"
+      ],
+      [
+        "🕡",
+        "six-thirty"
+      ],
+      [
+        "🕢",
+        "seven-thirty"
+      ],
+      [
+        "🕣",
+        "eight-thirty"
+      ],
+      [
+        "🕤",
+        "nine-thirty"
+      ],
+      [
+        "🕥",
+        "ten-thirty"
+      ],
+      [
+        "🕦",
+        "eleven-thirty"
+      ],
+      [
+        "🕧",
+        "twelve-thirty"
+      ]
     ]
   },
   "flags": {
     "name": "Bandeiras",
     "emojis": [
-      ["🏳️", "white flag"],
-      ["🏴", "black flag"],
-      ["🏴‍☠️", "pirate flag"],
-      ["🏁", "chequered flag"],
-      ["🚩", "triangular flag"],
-      ["🎌", "crossed flags"],
-      ["🏳️‍🌈", "rainbow flag"],
-      ["🏳️‍⚧️", "transgender flag"],
-      ["🏴󠁧󠁢󠁥󠁮󠁧󠁿", "flag england"],
-      ["🏴󠁧󠁢󠁳󠁣󠁴󠁿", "flag scotland"],
-      ["🏴󠁧󠁢󠁷󠁬󠁳󠁿", "flag wales"],
-      ["🇺🇸", "flag united states"],
-      ["🇬🇧", "flag united kingdom"],
-      ["🇧🇷", "flag brazil"],
-      ["🇵🇹", "flag portugal"],
-      ["🇪🇸", "flag spain"],
-      ["🇫🇷", "flag france"],
-      ["🇩🇪", "flag germany"],
-      ["🇮🇹", "flag italy"],
-      ["🇷🇺", "flag russia"],
-      ["🇨🇳", "flag china"],
-      ["🇯🇵", "flag japan"],
-      ["🇰🇷", "flag south korea"],
-      ["🇮🇳", "flag india"],
-      ["🇦🇺", "flag australia"],
-      ["🇨🇦", "flag canada"],
-      ["🇲🇽", "flag mexico"],
-      ["🇦🇷", "flag argentina"],
-      ["🇨🇴", "flag colombia"],
-      ["🇻🇪", "flag venezuela"],
-      ["🇵🇪", "flag peru"],
-      ["🇨🇱", "flag chile"],
-      ["🇿🇦", "flag south africa"],
-      ["🇳🇬", "flag nigeria"],
-      ["🇪🇬", "flag egypt"],
-      ["🇮🇪", "flag ireland"],
-      ["🇳🇱", "flag netherlands"],
-      ["🇧🇪", "flag belgium"],
-      ["🇨🇭", "flag switzerland"],
-      ["🇦🇹", "flag austria"],
-      ["🇵🇱", "flag poland"],
-      ["🇸🇪", "flag sweden"],
-      ["🇳🇴", "flag norway"],
-      ["🇩🇰", "flag denmark"],
-      ["🇫🇮", "flag finland"],
-      ["🇬🇷", "flag greece"],
-      ["🇹🇷", "flag turkey"],
-      ["🇸🇦", "flag saudi arabia"],
-      ["🇮🇱", "flag israel"],
-      ["🇦🇪", "flag united arab emirates"]
+      [
+        "🏳️",
+        "white flag"
+      ],
+      [
+        "🏴",
+        "black flag"
+      ],
+      [
+        "🏴‍☠️",
+        "pirate flag"
+      ],
+      [
+        "🏁",
+        "chequered flag"
+      ],
+      [
+        "🚩",
+        "triangular flag"
+      ],
+      [
+        "🎌",
+        "crossed flags"
+      ],
+      [
+        "🏳️‍🌈",
+        "chuvabow flag"
+      ],
+      [
+        "🏳️‍⚧️",
+        "transgender flag"
+      ],
+      [
+        "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "flag england"
+      ],
+      [
+        "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "flag scotland"
+      ],
+      [
+        "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+        "flag wales"
+      ],
+      [
+        "🇺🇸",
+        "flag united states"
+      ],
+      [
+        "🇬🇧",
+        "flag united kingdom"
+      ],
+      [
+        "🇧🇷",
+        "flag brazil"
+      ],
+      [
+        "🇵🇹",
+        "flag portugal"
+      ],
+      [
+        "🇪🇸",
+        "flag spain"
+      ],
+      [
+        "🇫🇷",
+        "flag france"
+      ],
+      [
+        "🇩🇪",
+        "flag germany"
+      ],
+      [
+        "🇮🇹",
+        "flag italy"
+      ],
+      [
+        "🇷🇺",
+        "flag russia"
+      ],
+      [
+        "🇨🇳",
+        "flag china"
+      ],
+      [
+        "🇯🇵",
+        "flag japan"
+      ],
+      [
+        "🇰🇷",
+        "flag south korea"
+      ],
+      [
+        "🇮🇳",
+        "flag india"
+      ],
+      [
+        "🇦🇺",
+        "flag australia"
+      ],
+      [
+        "🇨🇦",
+        "flag canada"
+      ],
+      [
+        "🇲🇽",
+        "flag mexico"
+      ],
+      [
+        "🇦🇷",
+        "flag argentina"
+      ],
+      [
+        "🇨🇴",
+        "flag colombia"
+      ],
+      [
+        "🇻🇪",
+        "flag venezuela"
+      ],
+      [
+        "🇵🇪",
+        "flag peru"
+      ],
+      [
+        "🇨🇱",
+        "flag chile"
+      ],
+      [
+        "🇿🇦",
+        "flag south africa"
+      ],
+      [
+        "🇳🇬",
+        "flag nigeria"
+      ],
+      [
+        "🇪🇬",
+        "flag egypt"
+      ],
+      [
+        "🇮🇪",
+        "flag ireland"
+      ],
+      [
+        "🇳🇱",
+        "flag netherlands"
+      ],
+      [
+        "🇧🇪",
+        "flag belgium"
+      ],
+      [
+        "🇨🇭",
+        "flag switzerland"
+      ],
+      [
+        "🇦🇹",
+        "flag austria"
+      ],
+      [
+        "🇵🇱",
+        "flag poland"
+      ],
+      [
+        "🇸🇪",
+        "flag sweden"
+      ],
+      [
+        "🇳🇴",
+        "flag norway"
+      ],
+      [
+        "🇩🇰",
+        "flag denmark"
+      ],
+      [
+        "🇫🇮",
+        "flag finland"
+      ],
+      [
+        "🇬🇷",
+        "flag greece"
+      ],
+      [
+        "🇹🇷",
+        "flag turkey"
+      ],
+      [
+        "🇸🇦",
+        "flag saudi arabia"
+      ],
+      [
+        "🇮🇱",
+        "flag israel"
+      ],
+      [
+        "🇦🇪",
+        "flag united arab emirates"
+      ]
     ]
   }
 }
