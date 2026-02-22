@@ -6,11 +6,73 @@
 # Insere o emoji escolhido onde o cursor está
 # ===============================================
 
-# Verifica se fonts-noto-color-emoji está instalada
-if ! fc-list | grep -qi "Noto Color Emoji"; then
-    yad --error --text="Fonte Noto Color Emoji não encontrada!\nInstale o pacote fonts-noto-color-emoji (ou equivalente)."
-    exit 1
-fi
+set -e
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+LOG_FILE="$HOME/.local/share/emoji-picker.log"
+
+log() {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a "$LOG_FILE" 2>/dev/null || true
+}
+
+check_dependencies() {
+    local missing=()
+    
+    for cmd in yad xclip notify-send; do
+        if ! command -v "$cmd" &>/dev/null; then
+            missing+=("$cmd")
+        fi
+    done
+    
+    if [ ${#missing[@]} -gt 0 ]; then
+        log "Dependências faltando: ${missing[*]}"
+        
+        if command -v apt-get &>/dev/null; then
+            sudo apt-get install -y "${missing[@]}" libnotify-bin 2>/dev/null || \
+            apt-get install -y "${missing[@]}" libnotify-bin
+        elif command -v dnf &>/dev/null; then
+            sudo dnf install -y "${missing[@]}" libnotify
+        elif command -v pacman &>/dev/null; then
+            sudo pacman -S --noconfirm "${missing[@]}" libnotify
+        elif command -v zypper &>/dev/null; then
+            sudo zypper install -y "${missing[@]}" libnotify
+        fi
+    fi
+}
+
+install_emoji_font() {
+    if fc-list | grep -qi "Noto Color Emoji"; then
+        return 0
+    fi
+    
+    log "Fonte Noto Color Emoji não encontrada. Tentando instalar..."
+    
+    if command -v apt-get &>/dev/null; then
+        sudo apt-get install -y fonts-noto-color-emoji 2>/dev/null || \
+        apt-get install -y fonts-noto-color-emoji
+        fc-cache -f -v 2>/dev/null || true
+    elif command -v dnf &>/dev/null; then
+        sudo dnf install -y google-noto-color-emoji-fonts
+        fc-cache -f -v 2>/dev/null || true
+    elif command -v pacman &>/dev/null; then
+        sudo pacman -S --noconfirm noto-fonts-emoji
+        fc-cache -f -v 2>/dev/null || true
+    elif command -v zypper &>/dev/null; then
+        sudo zypper install -y google-noto-color-emoji-fonts
+        fc-cache -f -v 2>/dev/null || true
+    fi
+    
+    if fc-list | grep -qi "Noto Color Emoji"; then
+        log "Fonte emoji instalada com sucesso!"
+        return 0
+    else
+        yad --error --text="Não foi possível instalar a fonte emoji.\nInstale manualmente: fonts-noto-color-emoji"
+        return 1
+    fi
+}
+
+check_dependencies
+install_emoji_font
 
 # Lista bem grande de emojis (pode expandir bastante)
 # Formato:   emoji    descrição curta
