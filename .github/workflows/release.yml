@@ -1,0 +1,32 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Create package
+        run: |
+          mkdir -p emoji-picker
+          cp emoji-picker.sh install.sh uninstall.sh README.md CHANGELOG.md LICENSE VERSION emoji-picker/
+          cp -r data emoji-picker/
+          tar -czf emoji-picker-linux.tar.gz emoji-picker/
+          zip -r emoji-picker-linux.zip emoji-picker/
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            emoji-picker-linux.tar.gz
+            emoji-picker-linux.zip
+          generate_release_notes: true
