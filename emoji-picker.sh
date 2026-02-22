@@ -44,6 +44,7 @@ try:
     with open('$json_file', 'r', encoding='utf-8') as f:
         data = json.load(f)
         with open('$CACHE_FILE', 'w', encoding='utf-8') as cache:
+            # Ordenamos por categoria para a lista começar organizada
             for cat_key in sorted(data.keys()):
                 cat_data = data[cat_key]
                 cat_name = cat_data.get('name', cat_key)
@@ -53,14 +54,15 @@ try:
                     
                     # Col 1: Emoji (MARKUP)
                     cache.write(f'<span size=\"x-large\">{emoji}</span>\n')
-                    # Col 2: Descrição + Categoria
-                    # Incluímos a categoria diretamente na coluna de texto principal 
-                    # para que a busca nativa encontre instantaneamente sem depender de cliques.
-                    cache.write(f'{desc}   [{cat_name}]\n')
-                    # Col 3: Categoria (Coluna extra para ordenação)
+                    # Col 2: Descrição
+                    cache.write(f'{desc}\n')
+                    # Col 3: Categoria
                     cache.write(f'{cat_name}\n')
                     # Col 4: Raw para Cópia (Escondido)
                     cache.write(f'{emoji}\n')
+                    # Col 5: Super Índice de Busca (Escondido)
+                    # Colocamos tudo aqui para que o filtro encontre em qualquer lugar
+                    cache.write(f'{desc} {cat_name} {emoji}\n')
 except Exception as e:
     sys.exit(1)
 "
@@ -69,7 +71,8 @@ except Exception as e:
 show_picker() {
     get_all_emojis
     
-    # 4 Colunas: Emoji, Descrição (com categoria), Categoria, Raw
+    # Única janela: Modo Lista (Tabela)
+    # --search-column=5 garante que a busca funcione tanto por nome quanto por categoria
     local chosen
     chosen=$(yad --center \
         --title="Emoji Picker v$VERSION" \
@@ -78,13 +81,14 @@ show_picker() {
         --column="Emoji":markup \
         --column="Descrição":TEXT \
         --column="Categoria":TEXT \
-        --column="Raw":TEXT \
-        --hide-column=4 \
+        --column="Raw":TEXT:hd \
+        --column="Busca"TEXT \
         --print-column=4 \
-        --search-column=2 \
+        --hide-column=5 \
+        --search-column=5 \
         --regex-search \
         --separator="" \
-        --text="<b>Busca Ativa:</b> Digite qualquer parte do Nome ou Categoria." < "$CACHE_FILE")
+        --text="Busque por <b>Nome</b> ou <b>Categoria</b>. Clique nos cabeçalhos para ordenar." < "$CACHE_FILE")
     
     echo -n "$chosen"
 }
@@ -112,6 +116,7 @@ main() {
     esac
 
     local selected=$(show_picker)
+    
     if [ -n "$selected" ]; then
         if copy_to_clipboard "$selected"; then
             notify_user "$selected"
